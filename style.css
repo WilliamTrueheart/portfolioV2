@@ -166,7 +166,7 @@ background-size: 500% 500%;
     }
     #aboutMePara {
         width:80%;
-        font-weight: 500; font-size: 16px;
+        font-weight: 500; font-size: 18px;
     }
     #helloWorld {
         font-size: 22px;
@@ -221,8 +221,8 @@ background-size: 500% 500%;
         position: relative;
 
     }
-    #helloWorld {font-size: 18px;}
+    #helloWorld {font-size: 16px;}
     #aboutMePara {
-        font-weight: 500; font-size: 14px;
+        font-weight: 500; font-size: 12px;
     }
 }
