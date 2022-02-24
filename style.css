@@ -163,7 +163,6 @@ background-size: 500% 500%;
         width:80vw; height:40vw;
         display: flex;
         flex-wrap: wrap;
-
     }
     .tiles {
         width:25%; height:50%;
@@ -190,5 +189,10 @@ background-size: 500% 500%;
     #education {
         border-bottom-left-radius: 0px;
     }
-
+    .displayUI {
+        width:80vw; height:40vw;
+        margin-top:10px;
+        display: none;
+        flex-wrap: wrap;
+    }
 }
