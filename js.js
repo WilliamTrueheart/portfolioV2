@@ -1,0 +1,22 @@
+function selectAboutMe() {
+    document.getElementById("tileBoardWrapper").style.display= "none";
+    document.getElementById("aboutMeDisplay").style.display= "flex";
+    document.getElementById("returnToTileBoard_BTN").style.display= "flex";
+}
+
+function returnToTileBoard() {
+
+    document.getElementById("tileBoardWrapper").style.display= "flex";
+    document.getElementById("aboutMeDisplay").style.display= "none";
+    document.getElementById("returnToTileBoard_BTN").style.display= "none";
+}
+
+function changeProfileImage() {
+    document.getElementById("profileImage").style.display= "none";
+    document.getElementById("profileImage2").style.display= "flex";
+}
+
+function changeProfileImage_revert() {
+    document.getElementById("profileImage2").style.display= "none";
+    document.getElementById("profileImage").style.display= "flex";
+}

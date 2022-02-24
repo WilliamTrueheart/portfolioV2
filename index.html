@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greatest Movies</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body>
+    <div id="mainWrapper">
+        <div id="tileBoardWrapper">
+            <div onmouseover="changeProfileImage()"  onmouseleave="changeProfileImage_revert()" id="tileProfilePicture" class="tiles"><img id="profileImage" src="profileImage.PNG" width="100%" alt=""><img id="profileImage2" src="profileImageHover.PNG" width="100%" alt=""></div>
+            <div onclick="selectAboutMe()" id="aboutMe" class="tiles"></div>
+            <div id="experience" class="tiles"></div>
+            <div id="portfolio" class="tiles"></div>
+            <div id="skills" class="tiles"></div>
+            <div id="interests" class="tiles"></div>
+            <div id="education" class="tiles"></div>
+            <div id="contact" class="tiles"></div>
+        </div>
+            <div id="aboutMeDisplay">
+                <h4 id="aboutMePara">
+                    <p id="helloWorld">Hello World!</p> <br>
+                    My Name is William Newton. I am a 28 year old Web Developer living in Denton, Texas.
+                    I am an Enneagram 5, INFP, who strives to recognize the value found in the smallest of objectives.
+                    <br><br>A few important words to me include Integrity, Humility, Servitude, and Patience.
+                    <br><br>I enjoy Web Developement because I enjoy building engaging avenues of communication with people across the world!
+                    <button onclick="returnToTileBoard()" id="returnToTileBoard_BTN">BACK</button>    
+                </h4>
+                    
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js.js"></script>
+</html>
