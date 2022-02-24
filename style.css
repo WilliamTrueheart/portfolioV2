@@ -212,7 +212,7 @@ background-size: 500% 500%;
     }
     .displayUI {
         background-color: rgba(255, 255, 255, 0.904);
-        width:80vw; height:min-content;
+        width:80vw; height:80vh;
         border-radius: 12px;
         position: relative;
         padding: 2vh 20px 2vh 20px;
