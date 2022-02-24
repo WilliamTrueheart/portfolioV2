@@ -1,13 +1,13 @@
 function selectAboutMe() {
     document.getElementById("tileBoardWrapper").style.display= "none";
-    document.getElementById("aboutMeDisplay").style.display= "flex";
+    document.getElementById("displayUI_AboutMe").style.display= "flex";
     document.getElementById("returnToTileBoard_BTN").style.display= "flex";
 }
 
 function returnToTileBoard() {
 
     document.getElementById("tileBoardWrapper").style.display= "flex";
-    document.getElementById("aboutMeDisplay").style.display= "none";
+    document.getElementById("displayUI_AboutMe").style.display= "none";
     document.getElementById("returnToTileBoard_BTN").style.display= "none";
 }
 
