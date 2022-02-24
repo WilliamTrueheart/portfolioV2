@@ -129,9 +129,15 @@ background-size: 500% 500%;
 #helloWorld {
   position: absolute;
   top:12%; left:10%;
-  font-size: 28px;
+  font-size: 40px;
 }
 
+#aboutMePara {
+    position: absolute;
+    width:80%;
+    margin-left:10%; top: 28%;
+    font-weight: 500;
+}
 
 
 @media screen and (max-width: 1000px) {
