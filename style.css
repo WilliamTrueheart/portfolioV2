@@ -14,7 +14,7 @@ body {
 
 #tileBoardWrapper {
     width:70vw; height:35vw;
-    margin-top:10vh;  margin-bottom:100px;
+    margin-top:12vh;  margin-bottom:100px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -82,7 +82,6 @@ background-size: 500% 500%;
     transform: scale(1.04);
 }
 
-
 #aboutMe {
     background-image: url("aboutMe.PNG");
 }
@@ -111,13 +110,12 @@ background-size: 500% 500%;
 
 .displayUI {
     width:70vw; height:35vw;
-    margin-top:10vh;  margin-bottom:100px;
+    margin-top:12vh;  margin-bottom:100px;
     display: none;
     flex-wrap: wrap;
     background-color: #ffffff;
     border-radius: 8px;
 }
-
 
 
 @media screen and (max-width: 1000px) {
@@ -191,8 +189,12 @@ background-size: 500% 500%;
     }
     .displayUI {
         width:80vw; height:40vw;
-        margin-top:10px;
+        margin-top:2vh;
         display: none;
         flex-wrap: wrap;
     }
+}
+
+@media screen and (min-height: 750px) {
+    .displayUI {height:96vh;}
 }
