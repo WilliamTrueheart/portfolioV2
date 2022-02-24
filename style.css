@@ -180,7 +180,16 @@ background-size: 500% 500%;
     }
 }
 
-
+@media screen and (max-width: 450px) {
+    .displayUI {
+        background-color: rgba(255, 255, 255, 0.904);
+        width:90vw; height:70vh;
+        border-radius: 12px;
+        position: relative;
+        box-sizing: border-box;
+        margin-top:-10vh;
+    }
+} 
 
 @media screen and (max-width: 820px) and (max-height: 430px) {
     #tileBoardWrapper {
@@ -219,7 +228,7 @@ background-size: 500% 500%;
         width:80vw; height:70vh;
         border-radius: 12px;
         position: relative;
-
+        margin-top:-10vh;
     }
     #helloWorld {font-size: 16px;}
     #aboutMePara {
