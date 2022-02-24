@@ -112,7 +112,7 @@ background-size: 500% 500%;
 .displayUI {
     width:70vw; height:35vw;
     margin-top:70px;  margin-bottom:100px;
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     background-color: #ffffff;
     border-radius: 8px;
