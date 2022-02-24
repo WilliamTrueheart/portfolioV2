@@ -124,7 +124,6 @@ background-size: 500% 500%;
     box-sizing: border-box;
     display: none;
     justify-content: center; align-items: center;
-
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -172,14 +171,15 @@ background-size: 500% 500%;
     }
     #helloWorld {
         margin-left:10%;
-        font-size: 32px;
+        font-size: 22px;
       }
       .displayUI {
         background-color: rgba(255, 255, 255, 0.904);
-        width:60vw; height:min-content;
+        width:90vw; height:90vh;
         border-radius: 12px;
         position: relative;
-        padding: 10vh 20px 10vh 20px;
+        box-sizing: border-box;
+        padding: 20% 20px 20% 20px;
     }
 }
 
