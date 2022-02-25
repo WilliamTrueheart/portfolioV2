@@ -300,3 +300,12 @@ hr {background-color: black;}
         #foxmithPortfolioImage {width:170px; margin-top:20%; }
     
 }
+
+@media screen and (max-width: 450px) {
+    .displayUI {
+        width:80vw; height:160vw;
+        margin-top:10px;
+        display: none;
+        flex-wrap: wrap;
+    }
+}
