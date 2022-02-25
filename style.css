@@ -32,8 +32,8 @@ body {
 #returnToTileBoard_BTN,#returnToTileBoard_BTN_2,#returnToTileBoard_BTN_3
 ,#returnToTileBoard_BTN_4,#returnToTileBoard_BTN_5,#returnToTileBoard_BTN_6
 ,#returnToTileBoard_BTN_7,#returnToTileBoard_BTN_8 {
-    margin-left:5px; margin-top: 5px;
     position: absolute;
+    left:1vw; top:2vh;
     width:50px; height: 30px;
     background-color: rgba(235, 235, 235, 0.89);
     border-radius: 11px;
@@ -117,9 +117,24 @@ background-size: 500% 500%;
     width:70vw; height:35vw;
     margin-top:12vh;  margin-bottom:100px;
     display: none;
+    position: relative;
     flex-wrap: wrap;
+    flex-direction: column;
     background-color: #ffffff;
     border-radius: 8px;
+    justify-content: center; align-items: center;
+}
+
+/* Below is the display for ABOUT ME */
+
+.displayTitles {
+    font-size: 24px;
+    top:10%$
+
+}
+.displayPara {
+    width: 80%; 
+    font-size: 18px;
 }
 
 
@@ -150,10 +165,18 @@ background-size: 500% 500%;
 
     
 .displayUI {
-    width:80vw; height:160vw;
+    width:80vw; height:90vh;
     margin-top:10px;
     display: none;
     flex-wrap: wrap;
+}
+.displayTitles {
+    font-size: 22px;
+    top:10%$
+}
+.displayPara {
+    width: 80%; 
+    font-size: 16px;
 }
 }
 
@@ -198,6 +221,7 @@ background-size: 500% 500%;
         display: none;
         flex-wrap: wrap;
     }
+
 }
 
 @media screen and (min-height: 750px) {
