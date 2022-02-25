@@ -164,7 +164,7 @@ background-size: 500% 500%;
 
 #foxmithPortfolioImage {
     margin-top: 6%;
-    width:150px;
+    width:140px;
     border-radius: 8px;
 }
 
@@ -239,8 +239,11 @@ hr {background-color: black;}
 .jobDescriptions {
     font-size: 16px;
 }
-
-    #foxmithLink {font-size: 8px;}
+#foxmithLink {font-size: 8px;}
+#foxmithPortfolioImage {
+    margin-top: 5%;width:170px;
+    border-radius: 8px;
+}
 
 
 }
@@ -294,6 +297,6 @@ hr {background-color: black;}
 
 @media screen and (min-height: 750px) {
     .displayUI {height:96vh; }
-        #foxmithPortfolioImage {width:140px; margin-top:20%; }
+        #foxmithPortfolioImage {width:170px; margin-top:20%; }
     
 }
