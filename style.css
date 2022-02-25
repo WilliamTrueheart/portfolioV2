@@ -163,11 +163,17 @@ background-size: 500% 500%;
 }
 
 #foxmithPortfolioImage {
+    margin-top: 6%;
+    width:150px;
     border-radius: 8px;
 }
 
 #foxmithLink {
     font-size: 12px;
+    box-sizing: border-box;
+    padding:4px;
+    margin-top:5%;
+    background-color: #b6b6b68f;
 }
 
 hr {background-color: black;}
@@ -178,6 +184,11 @@ hr {background-color: black;}
     }
     .jobDescriptions {
         font-size: 12px;
+    }
+    #foxmithPortfolioImage {
+        margin-top: 5%;
+        width:120px;
+        border-radius: 8px;
     }
 }
 
@@ -229,6 +240,8 @@ hr {background-color: black;}
     font-size: 16px;
 }
 
+    #foxmithLink {font-size: 8px;}
+
 
 }
 
@@ -274,11 +287,13 @@ hr {background-color: black;}
     .displayPara {font-size: 14px;}
     .jobTitles {font-size: 12px;}
     .jobDescriptions {font-size: 10px;}
-    #foxmithPortfolioImage {top:10%; }
+    #foxmithPortfolioImage {width:80px; margin-top:20%; }
     #foxmithLink {font-size: 5px;}
+
 }
 
 @media screen and (min-height: 750px) {
     .displayUI {height:96vh; }
+        #foxmithPortfolioImage {width:140px; margin-top:20%; }
     
 }
