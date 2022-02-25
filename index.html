@@ -13,17 +13,34 @@
         <div id="tileBoardWrapper">
             <div onmouseover="changeProfileImage()"  onmouseleave="changeProfileImage_revert()" id="tileProfilePicture" class="tiles"><img id="profileImage" src="profileImage.PNG" width="100%" alt=""><img id="profileImage2" src="profileImageHover.PNG" width="100%" alt=""></div>
             <div onclick="selectAboutMe()" id="aboutMe" class="tiles"></div>
-            <div id="experience" class="tiles"></div>
-            <div id="portfolio" class="tiles"></div>
-            <div id="skills" class="tiles"></div>
-            <div id="interests" class="tiles"></div>
-            <div id="education" class="tiles"></div>
-            <div id="contact" class="tiles"></div>
+            <div onclick="selectExperience()" id="experience" class="tiles"></div>
+            <div onclick="selectPortfolio()" id="portfolio" class="tiles"></div>
+            <div onclick="selectSkills()" id="skills" class="tiles"></div>
+            <div onclick="selectInterests()" id="interests" class="tiles"></div>
+            <div onclick="selectEducation()" id="education" class="tiles"></div>
+            <div onclick="selectContact()" id="contact" class="tiles"></div>
         </div>
             <div id="displayUI_AboutMe" class="displayUI">
                     <button onclick="returnToTileBoard()" id="returnToTileBoard_BTN">BACK</button>    
             </div>
-            </div>
+            <div id="displayUI_Experience" class="displayUI">
+                <button onclick="returnToTileBoard()" id="returnToTileBoard_BTN_2">BACK</button>    
+             </div>
+             <div id="displayUI_Portfolio" class="displayUI">
+                <button onclick="returnToTileBoard()" id="returnToTileBoard_BTN_3">BACK</button>    
+             </div>
+             <div id="displayUI_Skills" class="displayUI">
+                <button onclick="returnToTileBoard()" id="returnToTileBoard_BTN_4">BACK</button>    
+             </div>
+             <div id="displayUI_Interests" class="displayUI">
+                <button onclick="returnToTileBoard()" id="returnToTileBoard_BTN_5">BACK</button>    
+             </div>
+             <div id="displayUI_Education" class="displayUI">
+                <button onclick="returnToTileBoard()" id="returnToTileBoard_BTN_6">BACK</button>    
+             </div>
+             <div id="displayUI_Contact" class="displayUI">
+                <button onclick="returnToTileBoard()" id="returnToTileBoard_BTN_7">BACK</button>    
+             </div>
         </div>
     </div>
 </body>
