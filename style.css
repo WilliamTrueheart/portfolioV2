@@ -129,7 +129,7 @@ background-size: 500% 500%;
 
 .displayTitles {
     font-size: 24px;
-    top:10%$
+    top:10%;
 
 }
 .displayPara {
@@ -180,9 +180,6 @@ background-size: 500% 500%;
 }
 }
 
-@media screen and (max-width: 450px) {
-
-} 
 
 @media screen and (max-width: 820px) and (max-height: 430px) {
     #tileBoardWrapper {
