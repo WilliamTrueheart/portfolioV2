@@ -165,14 +165,14 @@ background-size: 500% 500%;
 
     
 .displayUI {
-    width:80vw; height:90vh;
+    width:80vw; height:96vh;
     margin-top:10px;
     display: none;
     flex-wrap: wrap;
 }
 .displayTitles {
     font-size: 22px;
-    top:10%$
+    top:10%;
 }
 .displayPara {
     width: 80%; 
