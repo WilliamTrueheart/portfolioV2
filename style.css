@@ -115,7 +115,7 @@ background-size: 500% 500%;
 
 
 .displayUI {
-    width:75vw; height:80vh;
+    width:80vw; height:80vh;
     margin-top:10vh;  margin-bottom:10vh;
     display: none;
     position: relative;
@@ -263,9 +263,10 @@ hr {background-color: black;}
 
 @media screen and (max-width: 450px) {
     .displayUI {
-        width:80vw; height:160vw;
+        width:80vw; height:90vh;
         margin-top:10px;
         display: none;
         flex-wrap: wrap;
     }
+    .displayTitles {font-size: 10px;}
 }
