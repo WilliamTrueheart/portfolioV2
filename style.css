@@ -244,7 +244,7 @@ hr {background-color: black;}
     }
     .displayUI {
         width:80vw; height:80vh;
-        margin-top:10vh;
+        margin-top:20px;
         display: none;
         flex-wrap: wrap;
     }
@@ -256,10 +256,9 @@ hr {background-color: black;}
 }
 
 @media screen and (min-height: 750px) {
-    .displayUI {height:96vh; }
-        #foxmithPortfolioImage {width:170px; margin-top:20%; }
+    .displayUI {height:90vh; }
+ }
     
-}
 
 @media screen and (max-width: 450px) {
     .displayUI {
