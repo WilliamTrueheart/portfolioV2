@@ -130,7 +130,9 @@ background-size: 500% 500%;
 
 .displayTitles {
     font-size: 24px;
-    top:10%; height:10%; width:180px; 
+    position: absolute;
+    top:10%;
+    height:10%; width:180px; 
     background-image: linear-gradient(to right, rgba(43, 236, 236, 0.904),rgb(19, 216, 216) 60%);
     display: flex; align-items: center;
     justify-content: center;
@@ -138,11 +140,21 @@ background-size: 500% 500%;
 
 }
 .displayPara {
-    width: 80%; 
-
+    width: 80%; height: 55%;
+    position: absolute;
+    top:40%;
     font-size: 20px; 
 }
 
+.jobTitles {
+    font-size: 18px;
+}
+.jobDescriptions {
+    font-size: 16px;
+}
+
+
+hr {background-color: black;}
 
 @media screen and (max-width: 1000px) {
     
@@ -181,7 +193,7 @@ background-size: 500% 500%;
     top:10%;
 }
 .displayPara {
-    width: 80%; 
+    width: 80%; top:30%;
     font-size: 21px; font-weight: 400;
 }
 }
@@ -226,7 +238,10 @@ background-size: 500% 500%;
     }
     .displayTitles {font-size: 15px;}
     .displayPara {font-size: 14px;}
-
+    .jobTitles {
+        font-size: 14px;
+    }
+    .jobDescriptions {font-size: 11px;}
 }
 
 @media screen and (min-height: 750px) {
