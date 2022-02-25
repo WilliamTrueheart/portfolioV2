@@ -130,11 +130,16 @@ background-size: 500% 500%;
 
 .displayTitles {
     font-size: 24px;
-    top:10%; height:10%;
+    top:10%; height:10%; width:180px; 
+    background-image: linear-gradient(to right, rgba(43, 236, 236, 0.904),rgb(19, 216, 216) 60%);
+    display: flex; align-items: center;
+    justify-content: center;
+    border-radius: 4px;
 
 }
 .displayPara {
     width: 80%; 
+
     font-size: 20px; 
 }
 
