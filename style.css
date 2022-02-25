@@ -120,6 +120,7 @@ background-size: 500% 500%;
     position: relative;
     flex-wrap: wrap;
     flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #ffffff;
     border-radius: 8px;
     justify-content: center; align-items: center;
@@ -129,12 +130,12 @@ background-size: 500% 500%;
 
 .displayTitles {
     font-size: 24px;
-    top:10%;
+    top:10%; height:10%;
 
 }
 .displayPara {
     width: 80%; 
-    font-size: 18px;
+    font-size: 20px; 
 }
 
 
@@ -171,12 +172,12 @@ background-size: 500% 500%;
     flex-wrap: wrap;
 }
 .displayTitles {
-    font-size: 22px;
+    font-size: 26px;
     top:10%;
 }
 .displayPara {
     width: 80%; 
-    font-size: 16px;
+    font-size: 21px; font-weight: 400;
 }
 }
 
@@ -218,9 +219,11 @@ background-size: 500% 500%;
         display: none;
         flex-wrap: wrap;
     }
+    .displayTitles {font-size: 15px;}
+    .displayPara {font-size: 14px;}
 
 }
 
 @media screen and (min-height: 750px) {
-    .displayUI {height:96vh;}
+    .displayUI {height:96vh; }
 }
