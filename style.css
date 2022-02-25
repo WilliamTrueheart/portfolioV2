@@ -113,83 +113,64 @@ background-size: 500% 500%;
 }
 /* This is the display page once a tile is selected */
 
+
 .displayUI {
-    width:70vw; height:35vw;
-    margin-top:12vh;  margin-bottom:100px;
+    width:75vw; height:80vh;
+    margin-top:10vh;  margin-bottom:10vh;
     display: none;
     position: relative;
-    flex-wrap: wrap;
-    flex-direction: column;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #ffffff;
-    border-radius: 8px;
+    background-image: linear-gradient(to right, rgb(34, 34, 36), #262627 50%);
+    border-radius: 0px;
     justify-content: center; align-items: center;
+}
+
+#displayUI_AboutMe {
+    background-image: url("UIBackground1.PNG");
+    background-size: cover;
 }
 
 /* Below is the display for ABOUT ME */
 
+#displayParaUI {
+    display: flex;
+    margin-top:4%;
+    gap:50px;
+    flex-direction: column;
+    align-items: center; justify-content: center;
+}
+
+.displayUITile {
+    width: 90%; height: 100%;
+    position: relative;
+    background-color: #242424;
+    font-size: 18px; 
+
+}
+
 .displayTitles {
     font-size: 24px;
-    position: absolute;
-    top:10%;
-    height:10%; width:180px; 
-    background-image: linear-gradient(to right, rgba(43, 236, 236, 0.904),rgb(19, 216, 216) 60%);
-    display: flex; align-items: center;
-    justify-content: center;
+    padding:6px;
+    background-color: rgb(56, 56, 56);;
+    box-sizing: border-box;
+    border: 6px solid rgba(0, 0, 0, 0.356);
+    display: flex; 
+    align-items: center; justify-content: center;
     border-radius: 4px;
-
-}
-.displayPara {
-    width: 80%; height: 55%;
-    position: absolute;
-    top:35%;
-    font-size: 18px; 
+    color:white;
 }
 
-.jobTitles {
-    font-size: 16px;
-}
-.jobDescriptions {
-    font-size: 14px;
+.displayPara_Text {
+    width: 80%; 
+    color:white;
 }
 
-#displayPara_Portfolio {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width:min-content; 
-    box-sizing: border-box;
-   border-radius: 4px;
-}
 
-#foxmithPortfolioImage {
-    margin-top: 6%;
-    width:140px;
-    border-radius: 8px;
-}
-
-#foxmithLink {
-    font-size: 12px;
-    box-sizing: border-box;
-    padding:4px;
-    margin-top:5%;
-    background-color: #b6b6b68f;
-}
 
 hr {background-color: black;}
 
 @media screen and (max-width: 1100px) {
-    .jobTitles {
-        font-size: 15px;
-    }
-    .jobDescriptions {
-        font-size: 12px;
-    }
-    #foxmithPortfolioImage {
-        margin-top: 5%;
-        width:120px;
-        border-radius: 8px;
-    }
+
 }
 
 
@@ -220,31 +201,12 @@ hr {background-color: black;}
 
     
 .displayUI {
-    width:80vw; height:96vh;
-    margin-top:10px;
+    width:80vw; height:90vh;
+    margin-top:5vh;
     display: none;
     flex-wrap: wrap;
-}
-.displayTitles {
-    font-size: 26px;
-    top:10%;
-}
-.displayPara {
-    width: 80%; top:30%;
-    font-size: 21px; font-weight: 400;
-}
-.jobTitles {
-    font-size: 18px;
-}
-.jobDescriptions {
-    font-size: 16px;
-}
-#foxmithLink {font-size: 8px;}
-#foxmithPortfolioImage {
-    margin-top: 5%;width:170px;
-    border-radius: 8px;
-}
-
+    }
+.displayTitles {margin-top: 8vh; font-size: 18px;}
 
 }
 
@@ -281,17 +243,15 @@ hr {background-color: black;}
         border-bottom-left-radius: 0px;
     }
     .displayUI {
-        width:80vw; height:40vw;
-        margin-top:2vh;
+        width:80vw; height:80vh;
+        margin-top:10vh;
         display: none;
         flex-wrap: wrap;
     }
-    .displayTitles {font-size: 15px;}
-    .displayPara {font-size: 14px;}
-    .jobTitles {font-size: 12px;}
-    .jobDescriptions {font-size: 10px;}
-    #foxmithPortfolioImage {width:80px; margin-top:20%; }
-    #foxmithLink {font-size: 5px;}
+
+    #displayParaUI {gap:0px;}
+    .displayTitles {font-size: 12px;}
+    .displayPara_Text {font-size: 12px;}
 
 }
 
