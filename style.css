@@ -153,6 +153,22 @@ background-size: 500% 500%;
     font-size: 14px;
 }
 
+#displayPara_Portfolio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:min-content; 
+    box-sizing: border-box;
+   border-radius: 4px;
+}
+
+#foxmithPortfolioImage {
+    border-radius: 8px;
+}
+
+#foxmithLink {
+    font-size: 12px;
+}
 
 hr {background-color: black;}
 
@@ -258,6 +274,8 @@ hr {background-color: black;}
     .displayPara {font-size: 14px;}
     .jobTitles {font-size: 12px;}
     .jobDescriptions {font-size: 10px;}
+    #foxmithPortfolioImage {top:10%; }
+    #foxmithLink {font-size: 5px;}
 }
 
 @media screen and (min-height: 750px) {
