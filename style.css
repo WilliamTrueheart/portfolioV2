@@ -125,45 +125,23 @@ background-size: 500% 500%;
     justify-content: center; align-items: center;
 }
 
-#displayUI_AboutMe {
-    background-image: url("UIBackground1.PNG");
-    background-size: cover;
-}
-
-/* Below is the display for ABOUT ME */
-
-#displayParaUI {
-    display: flex;
-    margin-top:4%;
-    gap:50px;
-    flex-direction: column;
-    align-items: center; justify-content: center;
-}
+/* Tile is a child of displayUI */
 
 .displayUITile {
     width: 90%; height: 100%;
     position: relative;
-    background-color: #242424;
+    background: rgb(33,33,33);
+background: linear-gradient(140deg, rgba(33,33,33,1) 0%, rgba(61,61,61,1) 100%);
     font-size: 18px; 
-
 }
 
-.displayTitles {
-    font-size: 24px;
-    padding:6px;
-    background-color: rgb(56, 56, 56);;
-    box-sizing: border-box;
-    border: 6px solid rgba(0, 0, 0, 0.356);
-    display: flex; 
-    align-items: center; justify-content: center;
-    border-radius: 4px;
-    color:white;
+/* Below is the display for ABOUT ME */
+
+#display_AboutMe {
+    background-image: url("UIBackground1.PNG");
+    background-size: cover;
 }
 
-.displayPara_Text {
-    width: 80%; 
-    color:white;
-}
 
 
 
@@ -206,7 +184,6 @@ hr {background-color: black;}
     display: none;
     flex-wrap: wrap;
     }
-.displayTitles {margin-top: 8vh; font-size: 18px;}
 
 }
 
@@ -249,9 +226,6 @@ hr {background-color: black;}
         flex-wrap: wrap;
     }
 
-    #displayParaUI {gap:0px;}
-    .displayTitles {font-size: 12px;}
-    .displayPara_Text {font-size: 12px;}
 
 }
 
@@ -267,5 +241,5 @@ hr {background-color: black;}
         display: none;
         flex-wrap: wrap;
     }
-    .displayTitles {font-size: 14px;}
+
 }
