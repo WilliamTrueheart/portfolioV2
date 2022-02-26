@@ -82,14 +82,17 @@ body {
     100%{background-position:0% 82%};
 } 
 #profileImage { border-top-left-radius: 8px;}
-#profileImage2 {
-    display:none;
-    border-top-left-radius: 8px;
+
+#profileImage2 {display:none; border-top-left-radius: 8px;
 }
 
 #aboutMe {
     background-image: url("aboutMe.PNG");
 }
+#aboutMe:hover {
+    background-image: url("aboutMeHover.PNG");
+}
+
 #experience {
     background-image: url("experience.PNG");
 }
@@ -167,6 +170,19 @@ body {
     padding: 0 15% 0 15%;
 }
 
+#uI_Para_Skills {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:10px;
+    background-color: rgb(90, 90, 90);
+    padding: 20px;
+}
+
+.skills_Logo {
+    width:90px; 
+}
 
 
 hr {background-color: black;}
@@ -199,7 +215,9 @@ hr {background-color: black;}
     #skills {
         border-bottom-left-radius: 0px;
     }
-
+    .skills_Logo {
+        width:70px; 
+    }
 
 }
 
@@ -235,13 +253,11 @@ hr {background-color: black;}
     #education {
         border-bottom-left-radius: 0px;
     }
-
+    .skills_Logo {
+        width:60px; 
+    }
 }
 
-@media screen and (min-height: 750px) {
- 
- }
-    
 
 @media screen and (max-width: 450px) {
     .uI_Para {
