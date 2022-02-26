@@ -1,6 +1,8 @@
 body {
     background-color: rgb(0, 0, 0);
     margin:0; padding:0;
+    font-size: 18px;
+   
 }
 
 #mainWrapper {
@@ -40,8 +42,6 @@ body {
     border-radius: 6px;
     border:0px;
     color:rgb(0, 0, 0);
-    font-size: 12px;
-    font-weight: bolder;
     display:none;
     align-items: center; justify-content: center;
 }
@@ -53,13 +53,13 @@ body {
 #tileProfilePicture {
     box-shadow: rgb(68, 68, 68) 0px 0px 0px 0px;
     border-radius: 20px;
-background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-background-size: 500% 500%;
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 500% 500%;
 
--webkit-animation: rainbow 18s ease infinite;
--z-animation: rainbow 18s ease infinite;
--o-animation: rainbow 18s ease infinite;
-  animation: rainbow 18s ease infinite;}
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;}
 
 @-webkit-keyframes rainbow {
     0%{background-position:0% 82%}
@@ -129,9 +129,10 @@ background-size: 500% 500%;
 .displayUITile {
     width: 90%; height: 100%;
     position: relative;
+    display: flex;
+    justify-content: center;
     background: rgb(33,33,33);
     background: linear-gradient(140deg, rgba(33,33,33,1) 0%, rgba(61,61,61,1) 100%);
-    font-size: 18px; 
 }
 
 /* Below is the display for ABOUT ME */
@@ -151,6 +152,20 @@ background-size: 500% 500%;
     background-size: cover;
 }
 
+
+.uI_Title {
+    font-size: 1.5em;
+    color:white; 
+    position: absolute;
+    top:20%;
+}
+
+.uI_Para {
+    color:white; 
+    position: absolute;
+    top:44%; 
+    padding: 0 15% 0 15%;
+}
 
 
 
@@ -229,6 +244,7 @@ hr {background-color: black;}
     
 
 @media screen and (max-width: 450px) {
-
-
+    .uI_Para {
+        top:35%;
+    }
 }
