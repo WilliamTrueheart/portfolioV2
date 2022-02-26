@@ -34,10 +34,10 @@ body {
 ,#returnToTileBoard_BTN_4,#returnToTileBoard_BTN_5,#returnToTileBoard_BTN_6
 ,#returnToTileBoard_BTN_7,#returnToTileBoard_BTN_8 {
     position: absolute;
-    left:1vw; top:2vh;
+    left:20px; top:20px;
     width:50px; height: 30px;
     background-color: rgba(235, 235, 235, 0.89);
-    border-radius: 11px;
+    border-radius: 6px;
     border:0px;
     color:rgb(0, 0, 0);
     font-size: 12px;
