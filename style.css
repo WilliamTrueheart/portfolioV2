@@ -28,7 +28,7 @@ body {
     transform: scale(1.04);
     box-shadow: rgb(68, 68, 68) 0px 0px 6px 2px;
 }
-
+#tileProfilePicture:hover {transform: scale(1);}
 
 #returnToTileBoard_BTN,#returnToTileBoard_BTN_2,#returnToTileBoard_BTN_3
 ,#returnToTileBoard_BTN_4,#returnToTileBoard_BTN_5,#returnToTileBoard_BTN_6
@@ -85,7 +85,6 @@ background-size: 500% 500%;
 #profileImage2 {
     display:none;
     border-top-left-radius: 8px;
-    transform: scale(1.04);
 }
 
 #aboutMe {
