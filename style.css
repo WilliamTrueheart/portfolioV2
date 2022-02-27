@@ -248,7 +248,7 @@ hr {background-color: black;}
         width:70px; 
     }
     #uI_Para_Favorites {
-        font-size: .8em;
+        font-size: .9em;
     }
 
 }
@@ -294,11 +294,8 @@ hr {background-color: black;}
 
 
 @media screen and (max-width: 450px) {
-    #uI_Para_AboutMe {
-        top:34%;
-    }
     .uI_Para {
-        top:34%;
+        top:29%;
     }
     .uI_Title {
         top:15%;
