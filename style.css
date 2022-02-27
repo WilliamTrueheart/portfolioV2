@@ -290,5 +290,7 @@ hr {background-color: black;}
 
 
 @media screen and (max-width: 450px) {
-    .uI_Para {top:35%;}
+    #uI_Para_AboutMe {
+        top:34%;
+    }
 }
