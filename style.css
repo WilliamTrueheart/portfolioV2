@@ -176,7 +176,6 @@ body {
     color:rgb(255, 255, 255); 
     position: absolute;
     width:75%;
-    top:44%; 
     padding: 20px;
     background-color: rgba(22, 21, 21, 0.308);
 }
@@ -247,9 +246,11 @@ hr {background-color: black;}
     .skills_Logo {
         width:70px; 
     }
+
     #uI_Para_Favorites {
         font-size: .9em;
     }
+
 
 }
 
@@ -300,4 +301,5 @@ hr {background-color: black;}
     .uI_Title {
         top:15%;
     }
+
 }
