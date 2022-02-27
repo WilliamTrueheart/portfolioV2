@@ -209,6 +209,10 @@ padding: 20px 20px 20px 20px;
     width:90px; 
 }
 
+.mountain_Text {color:rgb(131, 243, 131);}
+.beach_Text {color:rgb(131, 170, 243);}
+.warm_Text {color:rgb(243, 131, 131);}
+.cold_Text {color:rgb(131, 221, 243);}
 
 hr {background-color: black;}
 
@@ -293,7 +297,7 @@ hr {background-color: black;}
     #uI_Para_AboutMe {
         top:34%;
     }
-    #uI_Para_Favorites {
+    .uI_Para {
         top:34%;
     }
 }
