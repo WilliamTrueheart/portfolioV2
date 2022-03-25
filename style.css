@@ -273,6 +273,10 @@ padding: 20px 20px 20px 20px;
     background-image: url('foxmithPortfolio.PNG');
     background-size: cover;
 }
+#portfolio_App2 {
+    background-image: url('invitePortfolio.PNG');
+    background-size: cover;
+}
 
 .grey {color:rgb(201, 201, 201)}
 .mountain_Text {color:rgb(131, 243, 131);}
