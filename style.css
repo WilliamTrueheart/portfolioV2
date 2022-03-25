@@ -246,6 +246,7 @@ padding: 20px 20px 20px 20px;
 
 .projectNames{
     position: absolute;
+    width:175px;
     bottom:-55px;
     color:white;
     background-color: rgb(32, 32, 32);
