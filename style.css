@@ -193,7 +193,7 @@ border-bottom-right-radius: 8px;
 }
 
 *#jsCert, #htmlCert {
-    height:100%;
+    width:40%;
 }
 
 #uI_Para_AboutMe {
@@ -326,7 +326,7 @@ hr {background-color: black;}
     }
     
     #jsCert, #htmlCert {
-        width:80%
+        width:70%
     }
 
 }
