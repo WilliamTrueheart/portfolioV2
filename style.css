@@ -271,8 +271,11 @@ hr {background-color: black;}
         width:90px; 
     }
 
-    #uI_Para_Favorites {
-        font-size: .9em;
+    #uI_Para_AboutMe {
+        font-size: .8em;
+    }
+    #uI_Para_Experience {
+        font-size: .8em;
     }
 
 
@@ -314,7 +317,10 @@ hr {background-color: black;}
     .skills_Logo {
         width:80px; 
     }
-    
+    #uI_AboutME_Para {
+        font-size: 12px;
+    }    
+
 }
 
 
@@ -330,5 +336,8 @@ hr {background-color: black;}
         width:80%
     }
 
+    #certWrapper {
+        margin-top:10vh;
+    }
 
 }
