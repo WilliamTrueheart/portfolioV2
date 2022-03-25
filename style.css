@@ -324,5 +324,9 @@ hr {background-color: black;}
     .uI_Title {
         top:15%;
     }
+    
+    #jsCert, #htmlCert {
+        width:80%
+    }
 
 }
