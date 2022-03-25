@@ -172,6 +172,7 @@ border-bottom-right-radius: 8px;
     position: absolute;
     width:75%;
     padding: 20px;
+    background-color: rgba(22, 21, 21, 0.308);
 }
 
 #certWrapper {
