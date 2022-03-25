@@ -219,7 +219,7 @@ border-bottom-right-radius: 8px;
     flex-wrap: wrap;
     justify-content: center;
     gap:10px;
-    width:65%;
+    width:55%;
     background-color: rgba(22, 21, 21, 0.308);
     padding: 20px;
 }
@@ -328,6 +328,10 @@ hr {background-color: black;}
     
     #jsCert, #htmlCert {
         width:80%
+    }
+
+    #uI_Para_Skills {
+        width:90%;
     }
 
 }
