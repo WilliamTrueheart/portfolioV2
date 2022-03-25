@@ -360,7 +360,10 @@ hr {background-color: black;}
     #uI_AboutME_Para {
         font-size: 12px;
     }    
-
+    .portfolio_Apps {
+        height:150px; width:150px;
+ 
+    }
 }
 
 
@@ -378,6 +381,10 @@ hr {background-color: black;}
 
     #certWrapper {
         margin-top:10vh;
+    }
+    .portfolio_Apps {
+        height:150px; width:150px;
+ 
     }
 
 }
