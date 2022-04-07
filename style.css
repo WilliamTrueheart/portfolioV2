@@ -25,6 +25,7 @@ body {
 .tiles {
     width:25%; height:50%;
     background-size: contain;
+    cursor: pointer;
 }
 .tiles:hover {
     transform: scale(1.04);
