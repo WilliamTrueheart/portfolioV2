@@ -39,7 +39,7 @@ body {
     position: absolute;
     left:20px; top:20px;
     width:50px; height: 30px;
-    background-color: rgba(235, 235, 235, 0.89);
+    background-color: rgba(235, 235, 235, 0.608);
     border-radius: 6px;
     border:0px;
     color:rgb(0, 0, 0);
@@ -48,7 +48,7 @@ body {
 }
 #returnToTileBoard_BTN:hover, #returnToTileBoard_BTN_2:hover,#returnToTileBoard_BTN_3:hover,
 #returnToTileBoard_BTN_4:hover,#returnToTileBoard_BTN_5:hover,#returnToTileBoard_BTN_6:hover,
-#returnToTileBoard_BTN_7:hover,#returnToTileBoard_BTN_8:hover {cursor:crosshair;color:white;background-color: rgb(159, 164, 233); }
+#returnToTileBoard_BTN_7:hover,#returnToTileBoard_BTN_8:hover {cursor:pointer;color:rgb(0, 0, 0);background-color: rgb(255, 255, 255); }
 /*Below are all the images for the main Tiles*/
 
 #tileProfilePicture {
@@ -161,8 +161,8 @@ border-bottom-right-radius: 8px;
     padding: 10px 20px 10px 20px;
     background-color: rgba(22, 21, 21, 0.308);
     box-shadow: white 0px 0px 4px .1px;
-    
 }
+.uI_Title:hover {color:#839bed; cursor:default;}
 
 .uI_Para {
     color:white; 
@@ -193,6 +193,7 @@ border-bottom-right-radius: 8px;
     width: 90%;
     color:white;
     text-align: center;
+    font-size: .8rem;
 }
 
 *#jsCert, #htmlCert {
@@ -251,7 +252,7 @@ padding: 20px 20px 20px 20px;
     position: absolute;
     width:300px; height:300px;
     background-image: linear-gradient(to right, rgb(60, 73, 103), rgb(35, 38, 62) 90%);
-    top:40%;
+    top:38%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -303,6 +304,8 @@ padding: 20px 20px 20px 20px;
 
 .showButton {
     position: absolute;
+    display:none;
+    justify-content: center;
     font-size: .6rem;
     height:min-content; width:90%;
     text-align: center;
@@ -312,6 +315,14 @@ padding: 20px 20px 20px 20px;
     cursor: pointer;
     word-wrap: break-word;
 }
+
+#foxmithLink {
+    position: absolute;
+    top:120px;
+    display:none;
+    font-size: .8rem;
+}
+
 
 #returnFromPortfolioItem {
     position: absolute;

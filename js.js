@@ -44,6 +44,9 @@ function returnToTileBoard() {
     document.getElementById("display_Interests").style.display= "none";
     document.getElementById("display_Education").style.display= "none";
     document.getElementById("display_Contact").style.display= "none";
+
+    document.getElementById('showButton1').innerHTML = 'display results'
+    document.getElementById("portfolio_display_1").style.display= "none";
 }
 
 
@@ -63,11 +66,17 @@ const portfolio_Selection = (num) => {
     switch (num) {
     case 1:
     document.getElementById("portfolio_Display_Title1").innerHTML= "'FizzBuzz'<br>Eloquent Javascript";
-    document.getElementById("portfolio_Desc1").innerHTML= 'Write a program to print all the numbers from 1 to 100. <br> For numbers divisible by 3, print "Fizz", and for numbers divisible by 5 (and not 3), print "Buzz". Print "FizzBuzz" for numbers that are divisible by both 3 and 5';
+    document.getElementById("portfolio_Desc1").innerHTML= 'Write a program to print all the numbers from 1 to 100. <br><br> For numbers divisible by 3, print "Fizz", and for numbers divisible by 5 (and not 3), print "Buzz".<br><br> Print "FizzBuzz" for numbers that are divisible by both 3 and 5.';
+    document.getElementById("showButton1").style.display= "flex";
+    document.getElementById("portfolio_Desc1").style.top = "50px";
+    document.getElementById("portfolio_Desc1").style.display= "flex";
         break;
     case 2:
-    document.getElementById("portfolio_Display_Title1").innerHTML= "item 2";
-    document.getElementById("portfolio_Desc1").innerHTML= "item 2";
+    document.getElementById("portfolio_Display_Title1").innerHTML= "Below is the link to my <br> first front end project <br> on AWS Amplify";
+    document.getElementById("portfolio_Desc1").style.display= "none";
+    document.getElementById("portfolio_Desc1").style.top = "100px";
+    document.getElementById("showButton1").style.display= "none";
+    document.getElementById("foxmithLink").style.display= "flex";
         break;
     case 3:
     document.getElementById("portfolio_Display_Title1").innerHTML= "item 3";
@@ -90,6 +99,8 @@ const portfolio_Selection = (num) => {
 const returnFromPortfolioItem = () => {
     document.getElementById("portfolio_display_1").style.display= "none";
     document.getElementById('showButton1').innerHTML = 'display results'
+    document.getElementById("foxmithLink").style.display= "none";
+    document.getElementById("showButton1").style.display= "none";
 }
 
 const fizzBuzz = () => {
