@@ -16,6 +16,7 @@ const selectPortfolio = () => {
 }
 const selectSkills = () => {
     document.getElementById("tileBoardWrapper").style.display= "none";
+    document.getElementById("mainWrapper").style.display= "none";
     document.getElementById("display_Skills").style.display= "flex";
     document.getElementById("returnToTileBoard_BTN_4").style.display= "flex";
 }
@@ -23,16 +24,19 @@ function selectInterests() {
     document.getElementById("tileBoardWrapper").style.display= "none";
     document.getElementById("display_Interests").style.display= "flex";
     document.getElementById("returnToTileBoard_BTN_5").style.display= "flex";
+    document.getElementById("mainWrapper").style.display= "none";
 }
 function selectEducation() {
     document.getElementById("tileBoardWrapper").style.display= "none";
     document.getElementById("display_Education").style.display= "flex";
     document.getElementById("returnToTileBoard_BTN_6").style.display= "flex";
+    document.getElementById("mainWrapper").style.display= "none";
 }
 function selectContact() {
     document.getElementById("tileBoardWrapper").style.display= "none";
     document.getElementById("display_Contact").style.display= "flex";
     document.getElementById("returnToTileBoard_BTN_7").style.display= "flex";
+    document.getElementById("mainWrapper").style.display= "none";
 }
 
 function returnToTileBoard() {
@@ -44,7 +48,7 @@ function returnToTileBoard() {
     document.getElementById("display_Interests").style.display= "none";
     document.getElementById("display_Education").style.display= "none";
     document.getElementById("display_Contact").style.display= "none";
-
+    document.getElementById("mainWrapper").style.display= "flex";
     document.getElementById('showButton1').innerHTML = 'display results'
     document.getElementById("portfolio_display_1").style.display= "none";
 }
@@ -79,8 +83,11 @@ const portfolio_Selection = (num) => {
     document.getElementById("foxmithLink").style.display= "flex";
         break;
     case 3:
-    document.getElementById("portfolio_Display_Title1").innerHTML= "item 3";
-    document.getElementById("portfolio_Desc1").innerHTML= "item 2";
+    document.getElementById("portfolio_Display_Title1").innerHTML= "Hosted on AWS Amplify";
+    document.getElementById("portfolio_Desc1").style.display= "none";
+    document.getElementById("portfolio_Desc1").style.top = "100px";
+    document.getElementById("showButton1").style.display= "none";
+    document.getElementById("lC_Link").style.display= "flex";
         break;
     case 4:
     document.getElementById("portfolio_Display_Title1").innerHTML= "item 4";
@@ -100,6 +107,7 @@ const returnFromPortfolioItem = () => {
     document.getElementById("portfolio_display_1").style.display= "none";
     document.getElementById('showButton1').innerHTML = 'display results'
     document.getElementById("foxmithLink").style.display= "none";
+    document.getElementById("lC_Link").style.display= "none";
     document.getElementById("showButton1").style.display= "none";
 }
 
@@ -123,3 +131,4 @@ const fizzBuzz = () => {
 
     document.getElementById('showButton1').innerHTML = fizzBuzz.join(', ')
 }
+

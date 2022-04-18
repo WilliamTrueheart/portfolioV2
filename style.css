@@ -28,7 +28,7 @@ body {
     cursor: pointer;
 }
 .tiles:hover {
-    transform: scale(1.04);
+    transform: scale(1.03);
     box-shadow: rgb(68, 68, 68) 0px 0px 6px 2px;
 }
 #tileProfilePicture:hover {transform: scale(1);}
@@ -322,7 +322,48 @@ padding: 20px 20px 20px 20px;
     display:none;
     font-size: .8rem;
 }
+#lC_Link {
+    position: absolute;
+    top:120px;
+    display:none;
+    font-size: .8rem;
+}
 
+#eventGreetingWrapper {
+    display:none;
+    position: absolute;
+    bottom:0;
+    width:100%; height:85%;
+    background-color: #1ddde8;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+
+#pItem3Form {
+margin-top:15px;
+padding-bottom: 15px;
+}
+
+#item3Sub{
+    height:20px; width:60px;
+    border-radius: 6px;
+    background-color: rgb(223, 188, 188);
+}
+.portItem3Input {
+    height:20px; width:100px;
+}
+
+#eventGreetingReturn {
+    display:none;
+    position: absolute;
+    bottom:0;
+    width:100%; height:85%;
+    background-color: #611de8;
+    box-sizing: border-box;
+}
 
 #returnFromPortfolioItem {
     position: absolute;
