@@ -52,6 +52,7 @@ function returnToTileBoard() {
     document.getElementById("mainWrapper").style.display= "flex";
     document.getElementById('showButton1').innerHTML = 'display results'
     document.getElementById("portfolio_display_1").style.display= "none";
+    document.getElementById("lC_Link").style.display= "none";
 }
 
 
@@ -106,6 +107,7 @@ const portfolio_Selection = (num) => {
     document.getElementById("portfolio_Desc1").innerHTML= "Odds are, Im working on something for this tab now!";
     }
 }
+
 
 const returnFromPortfolioItem = () => {
     document.getElementById("portfolio_display_1").style.display= "none";
