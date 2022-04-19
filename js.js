@@ -53,6 +53,8 @@ function returnToTileBoard() {
     document.getElementById('showButton1').innerHTML = 'display results'
     document.getElementById("portfolio_display_1").style.display= "none";
     document.getElementById("lC_Link").style.display= "none";
+    document.getElementById("foxmithLink").style.display= "none";
+
 }
 
 
