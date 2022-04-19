@@ -344,11 +344,13 @@ padding: 20px 20px 20px 20px;
     position: absolute;
     top:120px;
     display:none;
+    color:black;
     font-size: .8rem;
 }
 #lC_Link {
     position: absolute;
     top:120px;
+    color:black;
     display:none;
     font-size: .8rem;
 }
