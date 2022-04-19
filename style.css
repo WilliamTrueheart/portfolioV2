@@ -48,7 +48,7 @@ a:hover {
     transition: .2s;
     box-shadow: rgb(68, 68, 68) 0px 0px 6px 2px;
 }
-#tileProfilePicture:hover {transform: scale(1);}
+#tileProfilePicture:hover {background-size: contain;border-radius: 200px; transform: scale(1);}
 
 #returnToTileBoard_BTN {
     position: absolute;
