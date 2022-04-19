@@ -7,39 +7,40 @@ const selectAboutMe = () => {
 const selectExperience = () => {
     document.getElementById("tileBoardWrapper").style.display= "none";
     document.getElementById("display_Experience").style.display= "flex";
-    document.getElementById("returnToTileBoard_BTN_2").style.display= "flex";
+    document.getElementById("returnToTileBoard_BTN").style.display= "flex";
 }
 const selectPortfolio = () => {
     document.getElementById("tileBoardWrapper").style.display= "none";
     document.getElementById("display_Portfolio").style.display= "flex";
-    document.getElementById("returnToTileBoard_BTN_3").style.display= "flex";
+    document.getElementById("returnToTileBoard_BTN").style.display= "flex";
 }
 const selectSkills = () => {
     document.getElementById("tileBoardWrapper").style.display= "none";
     document.getElementById("mainWrapper").style.display= "none";
     document.getElementById("display_Skills").style.display= "flex";
-    document.getElementById("returnToTileBoard_BTN_4").style.display= "flex";
+    document.getElementById("returnToTileBoard_BTN").style.display= "flex";
 }
 function selectInterests() {
     document.getElementById("tileBoardWrapper").style.display= "none";
     document.getElementById("display_Interests").style.display= "flex";
-    document.getElementById("returnToTileBoard_BTN_5").style.display= "flex";
+    document.getElementById("returnToTileBoard_BTN").style.display= "flex";
     document.getElementById("mainWrapper").style.display= "none";
 }
 function selectEducation() {
     document.getElementById("tileBoardWrapper").style.display= "none";
     document.getElementById("display_Education").style.display= "flex";
-    document.getElementById("returnToTileBoard_BTN_6").style.display= "flex";
+    document.getElementById("returnToTileBoard_BTN").style.display= "flex";
     document.getElementById("mainWrapper").style.display= "none";
 }
 function selectContact() {
     document.getElementById("tileBoardWrapper").style.display= "none";
     document.getElementById("display_Contact").style.display= "flex";
-    document.getElementById("returnToTileBoard_BTN_7").style.display= "flex";
+    document.getElementById("returnToTileBoard_BTN").style.display= "flex";
     document.getElementById("mainWrapper").style.display= "none";
 }
 
 function returnToTileBoard() {
+    document.getElementById("returnToTileBoard_BTN").style.display= "none";
     document.getElementById("tileBoardWrapper").style.display= "flex";
     document.getElementById("display_AboutMe").style.display= "none";
     document.getElementById("display_Experience").style.display= "none";

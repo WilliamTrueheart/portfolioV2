@@ -34,22 +34,20 @@ body {
 }
 #tileProfilePicture:hover {transform: scale(1);}
 
-#returnToTileBoard_BTN,#returnToTileBoard_BTN_2,#returnToTileBoard_BTN_3
-,#returnToTileBoard_BTN_4,#returnToTileBoard_BTN_5,#returnToTileBoard_BTN_6
-,#returnToTileBoard_BTN_7,#returnToTileBoard_BTN_8 {
+#returnToTileBoard_BTN {
     position: absolute;
-    left:20px; top:20px;
+    left:6.5%; top:20px;
     width:50px; height: 30px;
     background-color: rgba(235, 235, 235, 0.608);
     border-radius: 6px;
     border:0px;
     color:rgb(0, 0, 0);
     display:none;
+    padding-bottom:4px;
+    box-sizing: border-box;
     align-items: center; justify-content: center;
 }
-#returnToTileBoard_BTN:hover, #returnToTileBoard_BTN_2:hover,#returnToTileBoard_BTN_3:hover,
-#returnToTileBoard_BTN_4:hover,#returnToTileBoard_BTN_5:hover,#returnToTileBoard_BTN_6:hover,
-#returnToTileBoard_BTN_7:hover,#returnToTileBoard_BTN_8:hover {cursor:pointer;color:rgb(0, 0, 0);background-color: rgb(255, 255, 255); }
+#returnToTileBoard_BTN:hover {cursor:pointer;color:rgb(0, 0, 0);background-color: rgb(255, 255, 255); }
 /*Below are all the images for the main Tiles*/
 
 #tileProfilePicture {

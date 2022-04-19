@@ -10,6 +10,7 @@
 </head>
 <body>
     <div id="mainWrapper">
+        
         <div id="tileBoardWrapper">
             <div onmouseover="changeProfileImage()"  onmouseleave="changeProfileImage_revert()" id="tileProfilePicture" class="tiles"><img id="profileImage" src="profileImage.PNG" width="100%" alt=""><img id="profileImage2" src="profileImageHover.PNG" width="100%" alt=""></div>
             <div onclick="selectAboutMe()" id="aboutMe" class="tiles"></div>
@@ -22,7 +23,6 @@
         </div>
         <div id="display_AboutMe" class="displayUI">
             <div id="displayUITile_AboutMe" class="displayUITile">
-                <button onclick="returnToTileBoard()" id="returnToTileBoard_BTN">BACK</button>    
                 <div id="uI_Title_AboutMe" class="uI_Title">Hello World</div>
                 <div id="uI_Para_AboutMe" class="uI_Para"> 
                     My Name is  <span class="beach_Text">William Newton</span>.  I am a 28 year old Web Developer living in Denton, Texas.
@@ -35,7 +35,6 @@
 
         <div id="display_Experience" class="displayUI">
             <div id="displayUITile_Experience" class="displayUITile">
-                <button onclick="returnToTileBoard()" id="returnToTileBoard_BTN_2">BACK</button>    
                 <div id="uI_Title_Experience" class="uI_Title">Experience</div>
                 <div id="uI_Para_Experience" class="uI_Para"> 
                 <span class="grey">Elephant</span> in the room!  I do not have any paid job experience in the field of programming.
@@ -51,7 +50,6 @@
 
         <div id="display_Portfolio" class="displayUI">
             <div id="displayUITile_Portfolio" class="displayUITile">
-                <button onclick="returnToTileBoard()" id="returnToTileBoard_BTN_3">BACK</button>    
                 <div id="uI_Title_Portfolio" class="uI_Title">Portfolio</div>
                 <div id="portfolio_Items_Wrapper">
                     <div class="portfolio_Item" id="portfolio_Item1" onclick="portfolio_Selection(1)"> Eloquent JavaScript: Problem 1b / JS </div>
@@ -77,7 +75,6 @@
 
         <div id="display_Skills" class="displayUI">
             <div id="displayUITile_Skills" class="displayUITile">
-                <button onclick="returnToTileBoard()" id="returnToTileBoard_BTN_4">BACK</button>    
                 <div id="uI_Title_Skills" class="uI_Title">Skills </div>
                 <div id="uI_Para_Skills" class="uI_Para"> 
                   <img class="skills_Logo" src="htmlLogo.PNG" alt="">
@@ -91,7 +88,6 @@
         
         <div id="display_Interests" class="displayUI">
             <div id="displayUITile_Interests" class="displayUITile">
-                <button onclick="returnToTileBoard()" id="returnToTileBoard_BTN_5">BACK</button>    
                 <div id="uI_Title_Favorites" class="uI_Title"> Favorites </div>
                 <div id="uI_Para_Favorites" class="uI_Para"> 
                     <p>This or that? I prefer the <span class="mountain_Text">mountains</span> to the  <span class="beach_Text">beach</span>,
@@ -111,7 +107,6 @@
         
         <div id="display_Education" class="displayUI">
             <div id="displayUITile_Education" class="displayUITile">
-                <button onclick="returnToTileBoard()" id="returnToTileBoard_BTN_6">BACK</button>    
                 <div id="uI_Title_Education" class="uI_Title"> Education </div>
                 <div id="certWrapper">
                     <img id="jsCert" src="jsCert.PNG" alt="">
@@ -126,7 +121,6 @@
         
         <div id="display_Contact" class="displayUI">
             <div id="displayUITile_Contact" class="displayUITile">
-                <button onclick="returnToTileBoard()" id="returnToTileBoard_BTN_7">BACK</button>   
                 <div id="uI_Title_Skills" class="uI_Title"> Contact </div>
                 <div id="uI_Para_Contact" class="uI_Para"> 
                     Phone : (940) 205-2405 <br><br>
@@ -134,6 +128,8 @@
                 </div>
             </div> 
         </div>
+        <button onclick="returnToTileBoard()" id="returnToTileBoard_BTN"><img src="backArrow.png" width="60px" alt=""></button>    
+
     </div>
 </body>
 <script src="js.js"></script>
