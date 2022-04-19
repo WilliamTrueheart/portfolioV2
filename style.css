@@ -29,6 +29,7 @@ body {
 }
 .tiles:hover {
     transform: scale(1.03);
+    transition: .2s;
     box-shadow: rgb(68, 68, 68) 0px 0px 6px 2px;
 }
 #tileProfilePicture:hover {transform: scale(1);}
@@ -268,6 +269,7 @@ padding: 20px 20px 20px 20px;
     justify-content: center;
     opacity: 40%;
     height:47px;
+    font-size: .9rem;
     background-color:rgb(255, 255, 255);
 }
 
@@ -275,7 +277,11 @@ padding: 20px 20px 20px 20px;
     color:black;
     opacity: 90%;
     cursor:pointer;
+    box-sizing: border-box;
+    border-bottom: #1ddde8 4px solid;
     transform: scale(1.01);
+    transform: translateY(-2px);
+    transition: .5s;
     background-image:linear-gradient(90deg, rgba(255, 255, 255, 0.565), rgba(255, 255, 255, 0.73) 20%);
 }
 

@@ -90,16 +90,19 @@ const portfolio_Selection = (num) => {
     document.getElementById("lC_Link").style.display= "flex";
         break;
     case 4:
-    document.getElementById("portfolio_Display_Title1").innerHTML= "item 4";
-    document.getElementById("portfolio_Desc1").innerHTML= "item 2";        
+    document.getElementById("portfolio_Display_Title1").innerHTML= "Work in Progress";
+    document.getElementById("portfolio_Desc1").style.display= "flex";
+    document.getElementById("portfolio_Desc1").innerHTML= "Odds are, Im working on something for this tab now!";        
         break;    
     case 5:
-    document.getElementById("porfolio_Display_Title1").innerHTML= "item 5";
-    document.getElementById("porfolio_Desc1").innerHTML= "item 2";
+    document.getElementById("porfolio_Display_Title1").innerHTML= "Work in Progress";
+    document.getElementById("portfolio_Desc1").style.display= "flex";
+    document.getElementById("porfolio_Desc1").innerHTML= "Odds are, Im working on something for this tab now!";
         break;
     case 6:
-    document.getElementById("portfolio_Display_Title1").innerHTML= "item 6";
-    document.getElementById("portfolio_Desc1").innerHTML= "item 2";
+    document.getElementById("portfolio_Display_Title1").innerHTML= "Work in Progress";
+    document.getElementById("portfolio_Desc1").style.display= "flex";
+    document.getElementById("portfolio_Desc1").innerHTML= "Odds are, Im working on something for this tab now!";
     }
 }
 
