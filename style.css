@@ -69,7 +69,7 @@ a:hover {
 #tileProfilePicture {
     box-shadow: rgb(68, 68, 68) 0px 0px 0px 0px;
     border-radius: 20px;
-    background: linear-gradient(180deg, #78d2e1, #66cce0, #1ca9b8, #257a94);
+    background: linear-gradient(180deg, #80f589, #64d75b, #1cb81c, #259425);
     background-size: contain;
 }
 
