@@ -5,8 +5,20 @@ body {
    
 }
 
+/* The anchors are used for GitHub Link on the Contact Me tile */
+
+a, a:visited{
+    color: white;
+}
+
+a:hover {
+    color:rgb(18, 174, 174);
+}
+
+/* Main Wrapper is displayed behind Tile Board */
+
 #mainWrapper {
-   background-color: black;
+    background-image: linear-gradient(to top, black,rgb(27, 27, 27) 100%);
     width:100vw; height:100vh;
     display:flex;
     align-items: center;
@@ -14,6 +26,8 @@ body {
     box-sizing: border-box;
     margin:0; padding:0;
 }
+
+/* Tile Board Wrapper houses all 8 tiles */
 
 #tileBoardWrapper {
     width:70vw; height:35vw;
@@ -195,9 +209,11 @@ border-bottom-right-radius: 8px;
     font-size: .8rem;
 }
 
-*#jsCert, #htmlCert {
+#jsCert, #htmlCert {
     width:40%;
 }
+
+/* Below are the Paragraphs for the 8 Tile UI's */
 
 #uI_Para_AboutMe {
     color:rgb(255, 255, 255); 
@@ -235,6 +251,8 @@ padding: 20px 20px 20px 20px;
 .skills_Logo {
     width:120px; 
 }
+
+/* Below is the Housing for the PORTFOLIO Tile */
 
 #portfolioDisplayWrapper {
     align-self: center;
@@ -333,19 +351,6 @@ padding: 20px 20px 20px 20px;
     font-size: .8rem;
 }
 
-#eventGreetingWrapper {
-    display:none;
-    position: absolute;
-    bottom:0;
-    width:100%; height:85%;
-    background-color: #1ddde8;
-    align-items: center;
-    flex-direction: column;
-    gap:10px;
-    box-sizing: border-box;
-    padding-top: 40px;
-}
-
 #pItem3Form {
 margin-top:15px;
 padding-bottom: 15px;
@@ -360,14 +365,6 @@ padding-bottom: 15px;
     height:20px; width:100px;
 }
 
-#eventGreetingReturn {
-    display:none;
-    position: absolute;
-    bottom:0;
-    width:100%; height:85%;
-    background-color: #611de8;
-    box-sizing: border-box;
-}
 
 #returnFromPortfolioItem {
     position: absolute;
