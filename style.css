@@ -117,6 +117,7 @@ border-bottom-right-radius: 8px;
     width: 90%; height: 100%;
     position: relative;
     display: flex;
+    overflow: hidden;
     justify-content: center;
     background: rgb(33,33,33);
     background: linear-gradient(140deg, rgba(33,33,33,1) 0%, rgba(61,61,61,1) 100%);
@@ -152,14 +153,25 @@ border-bottom-right-radius: 8px;
     background-color: rgba(22, 21, 21, 0.308);
     box-shadow: white 0px 0px 4px .1px;
     border-radius: 4px;
+    animation-duration: 2s;
+    animation-name: easein;
 }
-.uI_Title:hover {color:#839bed; cursor:default;}
+
+
+
+
+.uI_Title:hover {
+ cursor:default; 
+
+}
 
 .uI_Para {
     color:white; 
     position: absolute;
     top:38vh; 
     border-radius: 4px;
+     animation-duration: 2s;
+    animation-name: easein;
 }
 
 
@@ -192,6 +204,8 @@ border-bottom-right-radius: 8px;
 
 #jsCert, #htmlCert {
     width:40%;
+    animation-duration: 4s;
+    animation-name: easein;
 }
 
 /* Below are the Paragraphs for the 8 Tile UI's */
@@ -249,6 +263,7 @@ padding: 20px 20px 20px 20px;
     font-size: .9rem;
     position: relative;
     bottom:0px;
+
 }
 .skillLevel {
     font-size: .7rem;
@@ -288,6 +303,8 @@ padding: 20px 20px 20px 20px;
     align-items: center;
     justify-content: center;
     align-self: center;
+    animation-duration: 4s;
+    animation-name: easein;
    
 }
 
@@ -413,13 +430,118 @@ padding-bottom: 15px;
 }
 
 
-.grey {color:rgb(201, 201, 201)}
-.green {color:rgb(131, 243, 131);}
-.blue {color:rgb(131, 170, 243);}
-.red {color:rgb(247, 169, 169);}
-.teal {color:rgb(131, 221, 243);}
+.grey {
+    color:rgb(201, 201, 201);
+    animation-duration: 4s;
+    animation-name: highlightwordsgrey;
+}
+
+.green {
+    color:rgb(131, 243, 131);
+    animation-duration: 4s;
+    animation-name: highlightwordsgreen;
+}
+
+.blue {
+    color:rgb(131, 170, 243);
+    animation-duration: 4s;
+    animation-name: highlightwordsblue;
+}
+
+.red {
+    color:rgb(247, 169, 169);
+    animation-duration: 4s;
+    animation-name: highlightwordsred;
+}
+
+.teal {
+    color:rgb(131, 221, 243);
+    animation-duration: 4s;
+    animation-name: highlightwordsteal;
+}
 
 hr {background-color: black;}
+
+@keyframes easein {
+    from {
+      opacity: 0%;
+    }
+    to {
+      opacity: 100%;
+    }
+  }
+
+@keyframes highlightwordsblue {
+    from {
+      color:white;
+    }
+    90% {
+        color:rgb(148, 178, 235);
+      }
+    100% {
+      color:rgb(131, 170, 243)
+    }
+    to {
+      opacity: 100%;
+    }
+}
+@keyframes highlightwordsgrey {
+    from {
+      color:white;
+    }
+    90% {
+        color:rgb(231, 230, 230);
+      }
+    100% {
+        color:rgb(201, 201, 201);
+    }
+    to {
+      opacity: 100%;
+    }
+}
+@keyframes highlightwordsgreen {
+    from {
+      color:white;
+    }
+    90% {
+        color:rgb(164, 234, 164);
+      }
+    100% {
+        color:rgb(131, 243, 131);
+    }
+    to {
+      opacity: 100%;
+    }
+}
+@keyframes highlightwordsred {
+    from {
+      color:white;
+    }
+    90% {
+        color:rgb(238, 177, 177);
+      }
+    100% {
+        color:rgb(247, 169, 169);
+    }
+    to {
+      opacity: 100%;
+    }
+}
+
+@keyframes highlightwordsteal {
+    from {
+      color:white;
+    }
+    90% {
+        color:rgb(186, 232, 243);
+      }
+    100% {
+        color:rgb(131, 221, 243);
+    }
+    to {
+      opacity: 100%;
+    }
+}
 
 
 
