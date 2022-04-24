@@ -451,6 +451,11 @@ hr {background-color: black;}
         border-bottom-left-radius: 0px;
     }
 
+    #uI_Para_Favorites {
+        font-size: .8rem;
+        line-height: 16px;
+
+    }
 
     #uI_Para_AboutMe {
         line-height: 22px;
@@ -462,9 +467,7 @@ hr {background-color: black;}
         font-size: .7em;
         line-height: normal;
     }
-    #display_Interests {
-        height:700px;
-    }
+
     .skills_Logo {
         width:20%; height:max-content;
         padding:1%;
@@ -484,7 +487,6 @@ hr {background-color: black;}
         position: relative;
         bottom:24px;
     }
- 
 
 }
 
@@ -586,5 +588,8 @@ hr {background-color: black;}
     }
     #uI_Para_Skills {
         gap:5%;
+    }
+    #uI_Para_Favorites {
+        font-size: .7rem;
     }
 }
