@@ -602,4 +602,7 @@ hr {background-color: black;}
         font-size: .7em;
         line-height: normal;
     }
+    #returnToTileBoard_BTN {
+        left:8%; 
+    }
 }
