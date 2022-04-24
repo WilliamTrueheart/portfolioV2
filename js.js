@@ -93,6 +93,7 @@ const portfolio_Selection = (num) => {
     document.getElementById("portfolio_Desc1").style.top = "100px";
     document.getElementById("showButton1").style.display= "none";
     document.getElementById("lC_Link").style.display= "flex";
+    document.getElementById("react_Link").style.display= "none";       
         break;
     case 4:
     document.getElementById("portfolio_Display_Title1").innerHTML= "Still learning how to build with React / Node.";
