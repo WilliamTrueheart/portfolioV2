@@ -151,6 +151,7 @@ border-bottom-right-radius: 8px;
     padding: 10px 20px 10px 20px;
     background-color: rgba(22, 21, 21, 0.308);
     box-shadow: white 0px 0px 4px .1px;
+    border-radius: 4px;
 }
 .uI_Title:hover {color:#839bed; cursor:default;}
 
@@ -158,6 +159,7 @@ border-bottom-right-radius: 8px;
     color:white; 
     position: absolute;
     top:38vh; 
+    border-radius: 4px;
 }
 
 
