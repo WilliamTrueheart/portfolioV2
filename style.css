@@ -417,10 +417,10 @@ padding-bottom: 15px;
 
 
 .grey {color:rgb(201, 201, 201)}
-.mountain_Text {color:rgb(131, 243, 131);}
-.beach_Text {color:rgb(131, 170, 243);}
-.warm_Text {color:rgb(247, 169, 169);}
-.cold_Text {color:rgb(131, 221, 243);}
+.green {color:rgb(131, 243, 131);}
+.blue {color:rgb(131, 170, 243);}
+.red {color:rgb(247, 169, 169);}
+.teal {color:rgb(131, 221, 243);}
 
 hr {background-color: black;}
 
