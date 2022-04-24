@@ -76,8 +76,6 @@ a:hover {
 
 #profileImage { border-top-left-radius: 8px;}
 
-#profileImage2 {display:none; border-top-left-radius: 8px;
-}
 
 #aboutMe {
     background-image: url("aboutMe.PNG");
