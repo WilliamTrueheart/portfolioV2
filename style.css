@@ -132,7 +132,9 @@ border-bottom-right-radius: 8px;
 #display_AboutMe, #display_Skills, #display_Contact  {
     background-image: url("UIBackground1.PNG");
     background-size: cover;
+    
 }
+
 
 #display_Experience, #display_Interests  {
     background-image: url("UIBackground2.PNG");
@@ -145,11 +147,12 @@ border-bottom-right-radius: 8px;
 }
 
 
+
 .uI_Title {
     font-size: 1.5em;
     color:white; 
     position: absolute;
-    top:20%;
+    top:20vh;
     padding: 10px 20px 10px 20px;
     background-color: rgba(22, 21, 21, 0.308);
     box-shadow: white 0px 0px 4px .1px;
@@ -159,11 +162,13 @@ border-bottom-right-radius: 8px;
 .uI_Para {
     color:white; 
     position: absolute;
-    top:38%; 
+    top:38vh; 
 }
+
 
 #uI_Para_Experience {
     position: absolute;
+    line-height: 22px;
     width:75%;
     padding: 20px;
     background-color: rgba(22, 21, 21, 0.308);
@@ -199,6 +204,7 @@ border-bottom-right-radius: 8px;
     position: absolute;
     width:75%;
     padding: 20px;
+    line-height: 25px;
     background-color: rgba(22, 21, 21, 0.308);
 }
 
@@ -210,14 +216,19 @@ border-bottom-right-radius: 8px;
     gap:10px;
     background-color: rgba(22, 21, 21, 0.308);
     padding: 20px;
+    position: absolute;
+    line-height: 22px;
 }
+
+
 
 #uI_Para_Skills {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap:10px;
+    gap:3%;
     width:65%;
+    height: min-content;
     background-color: rgba(22, 21, 21, 0.308);
     padding: 20px;
 }
@@ -228,8 +239,34 @@ padding: 20px 20px 20px 20px;
 }
 
 .skills_Logo {
-    width:120px; 
+    width:10%; height:max-content;
+    padding:0%;
+    top:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }
+
+.skillName {
+    font-size: .9rem;
+    position: relative;
+    bottom:0px;
+}
+.skillLevel {
+    font-size: .7rem;
+    position: relative;
+    bottom:28px;
+}
+
+.skillLogoImage {
+    width:100%;
+}
+.beginner {color:rgb(218, 90, 90)}
+.comfortable {color:rgb(218, 218, 90)}
+.confident {color:rgb(96, 201, 227);}
+
+
 
 /* Below is the Housing for the PORTFOLIO Tile */
 
@@ -413,19 +450,41 @@ hr {background-color: black;}
     #skills {
         border-bottom-left-radius: 0px;
     }
-    .skills_Logo {
-        width:90px; 
-    }
+
 
     #uI_Para_AboutMe {
-        font-size: .8em;
+        line-height: 22px;
+        font-size: 1rem;
     }
+
+
     #uI_Para_Experience {
-        font-size: .8em;
+        font-size: .7em;
+        line-height: normal;
     }
     #display_Interests {
         height:700px;
     }
+    .skills_Logo {
+        width:16%; height:max-content;
+        padding:1%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    
+    .skillName {
+        font-size: .6rem;
+        position: relative;
+        bottom:5px;
+    }
+    .skillLevel {
+        font-size: .5rem;
+        position: relative;
+        bottom:24px;
+    }
+ 
 
 }
 
@@ -462,16 +521,41 @@ hr {background-color: black;}
     #education {
         border-bottom-left-radius: 0px;
     }
-    .skills_Logo {
-        width:80px; 
-    }
-    #uI_AboutME_Para {
-        font-size: 12px;
-    }    
+
+
     .portfolio_Apps {
         height:150px; width:150px;
  
     }
+
+    .skills_Logo {
+        width:10%; height:max-content;
+        padding:0%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    
+    .skillName {
+        font-size: .5rem;
+        position: relative;
+        bottom:5px;
+    }
+    .skillLevel {
+        font-size: .4rem;
+        position: relative;
+        bottom:20px;
+    }
+    #uI_Para_AboutMe {
+        line-height:12px;
+        font-size:.6rem;
+    }
+    #uI_Para_Experience {
+        line-height:10px;
+        font-size:.6rem;
+    }
+    
 }
 
 
@@ -497,5 +581,7 @@ hr {background-color: black;}
     #portfolioDisplayWrapper {
         margin-top:2vh;
     }
-
+    #uI_Para_AboutMe {
+        font-size: 1rem;
+    }
 }
