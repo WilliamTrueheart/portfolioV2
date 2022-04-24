@@ -462,7 +462,6 @@ hr {background-color: black;}
         font-size: .8rem;
     }
 
-
     #uI_Para_Experience {
         font-size: .7em;
         line-height: normal;
@@ -583,13 +582,24 @@ hr {background-color: black;}
     #portfolioDisplayWrapper {
         margin-top:2vh;
     }
-    #uI_Para_AboutMe {
-        font-size: 1rem;
-    }
+
     #uI_Para_Skills {
         gap:5%;
     }
+
     #uI_Para_Favorites {
-        font-size: .7rem;
+        font-size: .8rem;
+        line-height: 16px;
+
+    }
+
+    #uI_Para_AboutMe {
+        line-height: 22px;
+        font-size: .8rem;
+    }
+
+    #uI_Para_Experience {
+        font-size: .7em;
+        line-height: normal;
     }
 }
