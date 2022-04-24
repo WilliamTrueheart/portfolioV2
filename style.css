@@ -38,6 +38,8 @@ a:hover {
     border-radius: 10px;
     flex-wrap: wrap;
     padding:0;
+    animation-duration: 5s;
+    animation-name: glow;
 }
 
 .tiles {
@@ -74,10 +76,15 @@ a:hover {
     background-image: url('profileImage.PNG');
     background-size: contain;
     position: relative;
+    animation-duration: 1.6s;
+    animation-name: down;
 }
 
 #aboutMe {
     background-image: url("aboutMe.PNG");
+    position: relative;
+    animation-duration: 1.6s;
+    animation-name: down;
 }
 #aboutMe:hover {
     background-image: url("aboutMeHover.PNG");
@@ -85,20 +92,43 @@ a:hover {
 
 #experience {
     background-image: url("experience.PNG");
+    position: relative;
+    animation-duration: 1.6s;
+    animation-name: up;
 }
 #portfolio {
     background-image: url("portfolio.PNG");
     border-top-right-radius: 8px;
+    position: relative;
+    animation-duration: 1.6s;
+    animation-name: up;
 }
 #skills {
     background-image: url("skills.PNG");
     border-bottom-left-radius: 8px;
+    position: relative;
+    animation-duration: 1.6s;
+    animation-name: down;
 }
 
-#interests {background-image: url("favorites.PNG");}
-#education {background-image: url("credentials.PNG");}
-#contact {background-image: url("contact.PNG");
-border-bottom-right-radius: 8px;
+#interests {
+    background-image: url("favorites.PNG");
+    position: relative;
+    animation-duration: 1.6s;
+    animation-name: down;
+}
+#education {
+    background-image: url("credentials.PNG");
+    position: relative;
+    animation-duration: 1.6s;
+    animation-name: up;
+}
+#contact {
+    background-image: url("contact.PNG");
+    border-bottom-right-radius: 8px;
+    position: relative;
+    animation-duration: 1.6s;
+    animation-name: up;
 }
 /* This is the display page once a tile is selected */
 
@@ -130,7 +160,6 @@ border-bottom-right-radius: 8px;
 #display_AboutMe, #display_Skills, #display_Contact  {
     background-image: url("UIBackground1.PNG");
     background-size: cover;
-    
 }
 
 
@@ -544,8 +573,50 @@ hr {background-color: black;}
     }
 }
 
+@keyframes down {
+    from {
+      bottom:100%;
+    }
+    to {
+        bottom:0%;
+    }
+}
 
-
+@keyframes left {
+    from {
+      right:100%;
+    }
+    to {
+      right:0%;
+    }
+}
+@keyframes right {
+    from {
+      left:100%;
+    }
+    to {
+      left:0%;
+    }
+}
+@keyframes up {
+    from {
+      top:100%;
+    }
+    to {
+      top:0%;
+    }
+}
+@keyframes glow {
+    from {
+      box-shadow: rgba(49, 152, 187, 0) 0px 0px 4px 1px;
+    }
+    50% {
+        box-shadow: rgba(49, 152, 187, 0) 0px 0px 4px 1px;
+      }
+    70% {
+        box-shadow: rgb(83, 208, 119) 0px 0px 3px 1px;
+    }
+}
 
 
 @media screen and (max-width: 1000px) {
