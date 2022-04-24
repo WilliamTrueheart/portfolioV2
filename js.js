@@ -95,7 +95,7 @@ const portfolio_Selection = (num) => {
     document.getElementById("lC_Link").style.display= "flex";
         break;
     case 4:
-    document.getElementById("portfolio_Display_Title1").innerHTML= "still learning npm build etc..";
+    document.getElementById("portfolio_Display_Title1").innerHTML= "Still learning how to build with React / Node.";
     document.getElementById("portfolio_Desc1").style.display= "none";
     document.getElementById("portfolio_Desc1").style.display= "none";
     document.getElementById("showButton1").style.display= "none";
