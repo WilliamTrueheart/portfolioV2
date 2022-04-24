@@ -466,7 +466,7 @@ hr {background-color: black;}
         height:700px;
     }
     .skills_Logo {
-        width:16%; height:max-content;
+        width:20%; height:max-content;
         padding:1%;
         display:flex;
         flex-direction: column;
@@ -583,5 +583,8 @@ hr {background-color: black;}
     }
     #uI_Para_AboutMe {
         font-size: 1rem;
+    }
+    #uI_Para_Skills {
+        gap:5%;
     }
 }
