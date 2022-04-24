@@ -69,13 +69,10 @@ a:hover {
 
 #tileProfilePicture {
     box-shadow: rgb(68, 68, 68) 0px 0px 0px 0px;
-    border-radius: 20px;
-    background: linear-gradient(180deg, #80f589, #64d75b, #1cb81c, #259425);
+    border-radius: 8px 0px 0px 0px;
+    background-image: url('profileImage.PNG');
     background-size: contain;
 }
-
-#profileImage { border-top-left-radius: 8px;}
-
 
 #aboutMe {
     background-image: url("aboutMe.PNG");
@@ -603,4 +600,13 @@ hr {background-color: black;}
     #returnToTileBoard_BTN {
         left:8%; 
     }
+    #uI_Para_Contact {
+        font-size: .7rem;
+        line-height: normal;
+    }
+
+    #showButton1 {
+        font-size: .6rem;
+    }
+
 }

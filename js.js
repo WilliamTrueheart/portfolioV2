@@ -59,16 +59,6 @@ function returnToTileBoard() {
 }
 
 
-function changeProfileImage() {
-    document.getElementById("profileImage").style.display= "none";
-    document.getElementById("profileImage2").style.display= "flex";
-}
-
-function changeProfileImage_revert() {
-    document.getElementById("profileImage2").style.display= "none";
-    document.getElementById("profileImage").style.display= "flex";
-}
-
 const portfolio_Selection = (num) => {
     document.getElementById("portfolio_display_1").style.display= "flex";
 
