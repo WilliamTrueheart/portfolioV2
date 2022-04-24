@@ -2,7 +2,8 @@ body {
     background-color: rgb(0, 0, 0);
     margin:0; padding:0;
     font-size: 18px;
-   
+    animation-duration: 3s;
+    animation-name: easein;
 }
 
 /* The anchors are used for GitHub Link on the Contact Me tile */
@@ -72,6 +73,7 @@ a:hover {
     border-radius: 8px 0px 0px 0px;
     background-image: url('profileImage.PNG');
     background-size: contain;
+    position: relative;
 }
 
 #aboutMe {
@@ -296,7 +298,7 @@ padding: 20px 20px 20px 20px;
 #portfolio_Items_Wrapper {
     position: absolute;
     width:300px; height:300px;
-    background-image: linear-gradient(to right, rgb(60, 73, 103), rgb(35, 38, 62) 90%);
+    background-image: linear-gradient(to right, rgb(122, 137, 174), rgb(76, 83, 140) 90%);
     top:38%;
     display: flex;
     flex-wrap: wrap;
@@ -305,7 +307,6 @@ padding: 20px 20px 20px 20px;
     align-self: center;
     animation-duration: 4s;
     animation-name: easein;
-   
 }
 
 .portfolio_Item {
@@ -542,6 +543,7 @@ hr {background-color: black;}
       opacity: 100%;
     }
 }
+
 
 
 
