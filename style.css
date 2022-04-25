@@ -679,7 +679,7 @@ hr {background-color: black;}
         bottom:24px;
     }
     #tileProfilePicture {
-        animation-duration: 1.6s;
+        animation-duration: 1.2s;
         animation-name: right;
     }
     #aboutMe {
