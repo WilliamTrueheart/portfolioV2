@@ -141,6 +141,8 @@ a:hover {
     background-image: linear-gradient(to right, rgb(34, 34, 36), #262627 50%);
     border-radius: 0px;
     justify-content: center; align-items: center;
+    animation-duration: 1s;
+    animation-name: easein;
 }
 
 /* Tile is a child of displayUI */
