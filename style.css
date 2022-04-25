@@ -76,14 +76,14 @@ a:hover {
     background-image: url('profileImage.PNG');
     background-size: contain;
     position: relative;
-    animation-duration: 1.6s;
+    animation-duration: 1.2s;
     animation-name: down;
 }
 
 #aboutMe {
     background-image: url("aboutMe.PNG");
     position: relative;
-    animation-duration: 1.6s;
+    animation-duration: 1s;
     animation-name: down;
 }
 #aboutMe:hover {
@@ -93,41 +93,41 @@ a:hover {
 #experience {
     background-image: url("experience.PNG");
     position: relative;
-    animation-duration: 1.6s;
+    animation-duration: 1s;
     animation-name: up;
 }
 #portfolio {
     background-image: url("portfolio.PNG");
     border-top-right-radius: 8px;
     position: relative;
-    animation-duration: 1.6s;
+    animation-duration: 1.2s;
     animation-name: up;
 }
 #skills {
     background-image: url("skills.PNG");
     border-bottom-left-radius: 8px;
     position: relative;
-    animation-duration: 1.6s;
+    animation-duration: 1.2s;
     animation-name: down;
 }
 
 #interests {
     background-image: url("favorites.PNG");
     position: relative;
-    animation-duration: 1.6s;
+    animation-duration: 1s;
     animation-name: down;
 }
 #education {
     background-image: url("credentials.PNG");
     position: relative;
-    animation-duration: 1.6s;
+    animation-duration: 1s;
     animation-name: up;
 }
 #contact {
     background-image: url("contact.PNG");
     border-bottom-right-radius: 8px;
     position: relative;
-    animation-duration: 1.6s;
+    animation-duration: 1.2s;
     animation-name: up;
 }
 /* This is the display page once a tile is selected */
@@ -577,7 +577,10 @@ hr {background-color: black;}
     from {
       bottom:100%;
     }
-    to {
+    60% {
+        bottom:-5%;
+    }
+    100% {
         bottom:0%;
     }
 }
@@ -586,15 +589,21 @@ hr {background-color: black;}
     from {
       right:100%;
     }
-    to {
-      right:0%;
+    60% {
+       right:-5%;
+    }
+    100% {
+       right:0%;
     }
 }
 @keyframes right {
     from {
       left:100%;
     }
-    to {
+    60% {
+      left:-5%;
+    }
+    100% {
       left:0%;
     }
 }
@@ -602,19 +611,22 @@ hr {background-color: black;}
     from {
       top:100%;
     }
-    to {
-      top:0%;
+    60% {
+       top:-5%;
+    }
+    100% {
+       top:0%;
     }
 }
 @keyframes glow {
     from {
       box-shadow: rgba(49, 152, 187, 0) 0px 0px 4px 1px;
     }
-    50% {
+    28% {
         box-shadow: rgba(49, 152, 187, 0) 0px 0px 4px 1px;
       }
-    70% {
-        box-shadow: rgb(83, 208, 119) 0px 0px 3px 1px;
+    36% {
+        box-shadow: rgba(20, 192, 69, 0.567) 0px 0px 10px 1px;
     }
 }
 
@@ -630,18 +642,6 @@ hr {background-color: black;}
         width:45vh;height:90vh;
     }
    
-    #aboutMe {
-        border-top-right-radius: 8px;
-    } 
-    #portfolio {
-        border-top-right-radius: 0px;
-    }
-    #education {
-        border-bottom-left-radius: 8px;
-    }
-    #skills {
-        border-bottom-left-radius: 0px;
-    }
 
     #uI_Para_Favorites {
         font-size: .8rem;
@@ -677,6 +677,42 @@ hr {background-color: black;}
         font-size: .5rem;
         position: relative;
         bottom:24px;
+    }
+    #tileProfilePicture {
+        animation-duration: 1.6s;
+        animation-name: right;
+    }
+    #aboutMe {
+        border-top-right-radius: 8px;
+        animation-duration: 1.2s;
+        animation-name: right;
+    }
+    #experience {
+        animation-duration: 1s;
+        animation-name: right;
+    }
+    #portfolio {
+        animation-duration: 1s;
+        animation-name: right;
+    }
+    #skills {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 0px;
+        animation-duration: 1s;
+        animation-name: left;
+    }
+    #interests {
+        animation-duration: 1s;
+        animation-name: left;
+    }
+    #education {
+        border-bottom-left-radius: 0px;
+        animation-duration: 1.2s;
+        animation-name: left;
+    }
+    #contact {
+        animation-duration: 1.2s;
+        animation-name: left;
     }
 
 }
@@ -809,4 +845,5 @@ hr {background-color: black;}
     .skills_Logo {
         width:28%;
     }
+
 }
