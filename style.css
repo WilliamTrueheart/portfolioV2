@@ -503,13 +503,13 @@ padding-bottom: 15px;
     box-sizing: border-box;
 }
 .htmlFont {
-    color:rgb(255, 109, 93);
-    background-color: black;
+    color:rgb(253, 111, 9);
+    background-color: rgb(0, 0, 0);
     font-size: .8rem;
     padding: 2px 4px 2px 4px;
     margin: 0 5px 0 5px;
     border-radius: 4px;
-    border:solid rgb(255, 87, 87) 1px;
+    border:solid rgb(253, 111, 9) 1px;
     box-sizing: border-box;
 }
 .cssFont {
