@@ -674,7 +674,7 @@ hr {background-color: black;}
 }
 
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1000px) {
     
     .tiles {
         width:50%; height:25%;
