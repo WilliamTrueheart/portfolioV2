@@ -141,7 +141,7 @@ a:hover {
     background-image: linear-gradient(to right, rgb(34, 34, 36), #262627 50%);
     border-radius: 0px;
     justify-content: center; align-items: center;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-name: easein;
 }
 
