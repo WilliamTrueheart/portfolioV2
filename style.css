@@ -345,7 +345,7 @@ padding: 20px 20px 20px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 40%;
+    opacity: 70%;
     height:47px;
     font-size: .9rem;
     background-color:rgb(255, 255, 255);
@@ -490,6 +490,47 @@ padding-bottom: 15px;
     color:rgb(131, 221, 243);
     animation-duration: 4s;
     animation-name: highlightwordsteal;
+}
+
+.jsFont {
+    color:yellow;
+    background-color: black;
+    font-size: .8rem;
+    padding: 2px 4px 2px 4px;
+    margin: 0 5px 0 5px;
+    border-radius: 4px;
+    border:solid yellow 1px;
+    box-sizing: border-box;
+}
+.htmlFont {
+    color:rgb(255, 109, 93);
+    background-color: black;
+    font-size: .8rem;
+    padding: 2px 4px 2px 4px;
+    margin: 0 5px 0 5px;
+    border-radius: 4px;
+    border:solid rgb(255, 87, 87) 1px;
+    box-sizing: border-box;
+}
+.cssFont {
+    color:rgb(147, 165, 255);
+    background-color: black;
+    font-size: .8rem;
+    padding: 2px 4px 2px 4px;
+    margin: 0 5px 0 5px;
+    border-radius: 4px;
+    border:solid rgb(134, 150, 252) 1px;
+    box-sizing: border-box;
+}
+.reactFont {
+    color:rgb(83, 235, 255);
+    background-color: black;
+    font-size: .8rem;
+    padding: 2px 4px 2px 4px;
+    margin: 0 5px 0 5px;
+    border-radius: 4px;
+    border:solid rgb(74, 253, 253) 1px;
+    box-sizing: border-box;
 }
 
 hr {background-color: black;}
