@@ -706,7 +706,7 @@ hr {background-color: black;}
         animation-name: left;
     }
     #education {
-        border-bottom-left-radius: 0px;
+        border-bottom-left-radius: 8px;
         animation-duration: 1.2s;
         animation-name: left;
     }
