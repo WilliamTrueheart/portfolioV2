@@ -315,15 +315,7 @@ padding: 20px 20px 20px 20px;
 
 /* Below is the Housing for the PORTFOLIO Tile */
 
-#portfolioDisplayWrapper {
-    align-self: center;
-    margin-top:15vh;
-    width:750px; height:40%;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap:70px;justify-content: center;
-}
+
 
 
 #portfolio_Items_Wrapper {
@@ -339,6 +331,14 @@ padding: 20px 20px 20px 20px;
     animation-duration: 4s;
     animation-name: easein;
 }
+
+#portfolio_Items_Wrapper::before {
+    content:'* chronilogically arranged with my first project being at the top';
+    color:white;
+    position: absolute;
+    bottom:-20px;
+    font-size: .6rem;
+    }
 
 .portfolio_Item {
     width:99%;
@@ -555,8 +555,8 @@ hr {background-color: black;}
     from {
       color:white;
     }
-    90% {
-        color:rgb(148, 178, 235);
+    60% {
+        color:rgb(255, 255, 255);
       }
     100% {
       color:rgb(131, 170, 243)
@@ -569,8 +569,8 @@ hr {background-color: black;}
     from {
       color:white;
     }
-    90% {
-        color:rgb(231, 230, 230);
+    60% {
+        color:rgb(255, 255, 255);
       }
     100% {
         color:rgb(201, 201, 201);
@@ -583,22 +583,19 @@ hr {background-color: black;}
     from {
       color:white;
     }
-    90% {
-        color:rgb(164, 234, 164);
-      }
+    60% {
+        color:rgb(255, 255, 255);
+    }
     100% {
         color:rgb(131, 243, 131);
-    }
-    to {
-      opacity: 100%;
     }
 }
 @keyframes highlightwordsred {
     from {
       color:white;
     }
-    90% {
-        color:rgb(238, 177, 177);
+    60% {
+        color:rgb(255, 255, 255);
       }
     100% {
         color:rgb(247, 169, 169);
@@ -612,8 +609,8 @@ hr {background-color: black;}
     from {
       color:white;
     }
-    90% {
-        color:rgb(186, 232, 243);
+    60%{
+        color:rgb(255, 255, 255);
       }
     100% {
         color:rgb(131, 221, 243);
@@ -857,9 +854,10 @@ hr {background-color: black;}
         height:180px; width:180px;
     }
 
-    #portfolioDisplayWrapper {
-        margin-top:2vh;
-    }
+  #portfolio_Items_Wrapper {
+    top:34%;
+  }
+  
 
     #uI_Para_Skills {
         gap:5%;
@@ -894,6 +892,10 @@ hr {background-color: black;}
 
     .skills_Logo {
         width:28%;
+    }
+    .portfolio_Desc {
+
+        font-size: .5rem;
     }
 
 }
