@@ -290,6 +290,11 @@ padding: 20px 20px 20px 20px;
     flex-direction: column;
     align-items: center;
     position: relative;
+    transition: 1s;
+}
+
+.skills_Logo:hover {
+    transform: scale(1.1);
 }
 
 .skillName {
@@ -363,6 +368,7 @@ padding: 20px 20px 20px 20px;
     background-image:linear-gradient(90deg, rgba(255, 255, 255, 0.565), rgba(255, 255, 255, 0.73) 20%);
 }
 
+
 .portfolio_display {
     position: absolute;
     height:300px;
@@ -424,6 +430,13 @@ padding: 20px 20px 20px 20px;
     font-size: .8rem;
 }
 #homebase_Link {
+    position: absolute;
+    top:120px;
+    color:black;
+    display:none;
+    font-size: .8rem;
+}
+#invite_Link {
     position: absolute;
     top:120px;
     color:black;

@@ -55,7 +55,8 @@ function returnToTileBoard() {
     document.getElementById("lC_Link").style.display= "none";
     document.getElementById("foxmithLink").style.display= "none";
     document.getElementById("reactLink").style.display= "none";
-    document.getElementById("homebase_Link").style.display= "none";       
+    document.getElementById("homebase_Link").style.display= "none";   
+    document.getElementById("invite_Link").style.display= "none";      
 
 }
 
@@ -77,7 +78,8 @@ const portfolio_Selection = (num) => {
     document.getElementById("portfolio_Desc1").style.top = "100px";
     document.getElementById("showButton1").style.display= "none";
     document.getElementById("foxmithLink").style.display= "flex";
-    document.getElementById("homebase_Link").style.display= "none";       
+    document.getElementById("homebase_Link").style.display= "none";     
+    document.getElementById("invite_Link").style.display= "none";    
 
         break;
     case 3:
@@ -87,26 +89,36 @@ const portfolio_Selection = (num) => {
     document.getElementById("showButton1").style.display= "none";
     document.getElementById("lC_Link").style.display= "flex";
     document.getElementById("react_Link").style.display= "none"; 
-    document.getElementById("homebase_Link").style.display= "none";             
+    document.getElementById("homebase_Link").style.display= "none";     
+    document.getElementById("invite_Link").style.display= "none";  
+        
         break;
     case 4:
     document.getElementById("portfolio_Display_Title1").innerHTML= "Still learning how to build with React / Node.";
     document.getElementById("portfolio_Desc1").style.display= "none";
     document.getElementById("showButton1").style.display= "none";
     document.getElementById("react_Link").style.display= "flex";  
-    document.getElementById("homebase_Link").style.display= "none";            
+    document.getElementById("homebase_Link").style.display= "none";     
+    document.getElementById("invite_Link").style.display= "none";  
+       
         break;    
     case 5:
     document.getElementById("portfolio_Display_Title1").innerHTML= "Current Project i'm working on";
     document.getElementById("portfolio_Desc1").style.display= "none";
     document.getElementById("showButton1").style.display= "none";
     document.getElementById("react_Link").style.display= "none"; 
-    document.getElementById("homebase_Link").style.display= "flex";       
+    document.getElementById("homebase_Link").style.display= "flex";    
+    document.getElementById("invite_Link").style.display= "none";  
+   
         break;
     case 6:
     document.getElementById("portfolio_Display_Title1").innerHTML= "Work in Progress";
-    document.getElementById("portfolio_Desc1").style.display= "flex";
-    document.getElementById("portfolio_Desc1").innerHTML= "Odds are, Im working on something for this tab now!";
+    document.getElementById("portfolio_Desc1").style.display= "none";
+    document.getElementById("showButton1").style.display= "none";
+    document.getElementById("react_Link").style.display= "none"; 
+    document.getElementById("homebase_Link").style.display= "none";  
+    document.getElementById("invite_Link").style.display= "flex";  
+
     }
 }
 
@@ -118,7 +130,9 @@ const returnFromPortfolioItem = () => {
     document.getElementById("lC_Link").style.display= "none";
     document.getElementById("react_Link").style.display= "none";       
     document.getElementById("showButton1").style.display= "none";
-    document.getElementById("homebase_Link").style.display= "none";       
+    document.getElementById("homebase_Link").style.display= "none";    
+    document.getElementById("invite_Link").style.display= "none";  
+   
 }
 
 const fizzBuzz = () => {
