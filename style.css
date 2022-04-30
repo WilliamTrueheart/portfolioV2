@@ -50,6 +50,7 @@ a:hover {
 .tiles:hover {
     transform: scale(1.03);
     transition: .2s;
+    z-index: 100;
     box-shadow: rgb(68, 68, 68) 0px 0px 6px 2px;
 }
 #tileProfilePicture:hover {transform: scale(1);}
