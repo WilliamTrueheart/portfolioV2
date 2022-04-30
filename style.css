@@ -339,8 +339,9 @@ padding: 20px 20px 20px 20px;
 }
 
 #portfolio_Items_Wrapper::before {
-    content:'* chronilogically arranged with my first project being at the top';
+    content:'* chronilogically arranged with my most current work at the top';
     color:white;
+    
     position: absolute;
     bottom:-20px;
     font-size: .6rem;
