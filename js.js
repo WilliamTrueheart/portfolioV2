@@ -94,7 +94,7 @@ const portfolio_Selection = (num) => {
         
         break;
     case 4:
-    document.getElementById("portfolio_Display_Title1").innerHTML= "Still learning how to build with React / Node.";
+    document.getElementById("portfolio_Display_Title1").innerHTML= "Still learning how to build with React / Node to set up a place to host.";
     document.getElementById("portfolio_Desc1").style.display= "none";
     document.getElementById("showButton1").style.display= "none";
     document.getElementById("react_Link").style.display= "flex";  
@@ -103,7 +103,7 @@ const portfolio_Selection = (num) => {
        
         break;    
     case 5:
-    document.getElementById("portfolio_Display_Title1").innerHTML= "Current Project i'm working on";
+    document.getElementById("portfolio_Display_Title1").innerHTML= "Animation practice on personal music site";
     document.getElementById("portfolio_Desc1").style.display= "none";
     document.getElementById("showButton1").style.display= "none";
     document.getElementById("react_Link").style.display= "none"; 
@@ -112,7 +112,7 @@ const portfolio_Selection = (num) => {
    
         break;
     case 6:
-    document.getElementById("portfolio_Display_Title1").innerHTML= "Work in Progress";
+    document.getElementById("portfolio_Display_Title1").innerHTML= "Practice with forms and animation";
     document.getElementById("portfolio_Desc1").style.display= "none";
     document.getElementById("showButton1").style.display= "none";
     document.getElementById("react_Link").style.display= "none"; 
