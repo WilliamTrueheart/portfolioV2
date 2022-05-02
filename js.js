@@ -54,9 +54,9 @@ function returnToTileBoard() {
     document.getElementById("portfolio_display_1").style.display= "none";
     document.getElementById("lC_Link").style.display= "none";
     document.getElementById("foxmithLink").style.display= "none";
-    document.getElementById("reactLink").style.display= "none";
     document.getElementById("homebase_Link").style.display= "none";   
-    document.getElementById("invite_Link").style.display= "none";      
+    document.getElementById("invite_Link").style.display= "none";   
+    document.getElementById("portfolio_Link").style.display= "none";        
 
 }
 
@@ -71,6 +71,7 @@ const portfolio_Selection = (num) => {
     document.getElementById("showButton1").style.display= "flex";
     document.getElementById("portfolio_Desc1").style.top = "50px";
     document.getElementById("portfolio_Desc1").style.display= "flex";
+    document.getElementById("portfolio_Link").style.display= "none";     
         break;
     case 2:
     document.getElementById("portfolio_Display_Title1").innerHTML= "Below is the link to my <br> first front end project <br> on AWS Amplify";
@@ -80,44 +81,45 @@ const portfolio_Selection = (num) => {
     document.getElementById("foxmithLink").style.display= "flex";
     document.getElementById("homebase_Link").style.display= "none";     
     document.getElementById("invite_Link").style.display= "none";    
-
+    document.getElementById("lC_Link").style.display= "none";
+    document.getElementById("portfolio_Link").style.display= "none";     
         break;
     case 3:
     document.getElementById("portfolio_Display_Title1").innerHTML= "Hosted on AWS Amplify";
     document.getElementById("portfolio_Desc1").style.display= "none";
     document.getElementById("portfolio_Desc1").style.top = "100px";
     document.getElementById("showButton1").style.display= "none";
-    document.getElementById("lC_Link").style.display= "flex";
-    document.getElementById("react_Link").style.display= "none"; 
+    document.getElementById("lC_Link").style.display= "none";
     document.getElementById("homebase_Link").style.display= "none";     
     document.getElementById("invite_Link").style.display= "none";  
-        
+    document.getElementById("portfolio_Link").style.display= "flex";        
         break;
     case 4:
-    document.getElementById("portfolio_Display_Title1").innerHTML= "Still learning how to build with React / Node to set up a place to host.";
+    document.getElementById("portfolio_Display_Title1").innerHTML= "First attempt at cloning a website (front end)";
     document.getElementById("portfolio_Desc1").style.display= "none";
     document.getElementById("showButton1").style.display= "none";
-    document.getElementById("react_Link").style.display= "flex";  
     document.getElementById("homebase_Link").style.display= "none";     
     document.getElementById("invite_Link").style.display= "none";  
-       
+    document.getElementById("lC_Link").style.display= "flex";
+    document.getElementById("portfolio_Link").style.display= "none";     
         break;    
     case 5:
     document.getElementById("portfolio_Display_Title1").innerHTML= "Animation practice on personal music site";
     document.getElementById("portfolio_Desc1").style.display= "none";
     document.getElementById("showButton1").style.display= "none";
-    document.getElementById("react_Link").style.display= "none"; 
     document.getElementById("homebase_Link").style.display= "flex";    
     document.getElementById("invite_Link").style.display= "none";  
-   
+    document.getElementById("lC_Link").style.display= "none";
+    document.getElementById("portfolio_Link").style.display= "none";     
         break;
     case 6:
     document.getElementById("portfolio_Display_Title1").innerHTML= "Practice with forms and animation";
     document.getElementById("portfolio_Desc1").style.display= "none";
     document.getElementById("showButton1").style.display= "none";
-    document.getElementById("react_Link").style.display= "none"; 
     document.getElementById("homebase_Link").style.display= "none";  
     document.getElementById("invite_Link").style.display= "flex";  
+    document.getElementById("lC_Link").style.display= "none";
+    document.getElementById("portfolio_Link").style.display= "none";     
 
     }
 }
@@ -128,10 +130,11 @@ const returnFromPortfolioItem = () => {
     document.getElementById('showButton1').innerHTML = 'display results'
     document.getElementById("foxmithLink").style.display= "none";
     document.getElementById("lC_Link").style.display= "none";
-    document.getElementById("react_Link").style.display= "none";       
     document.getElementById("showButton1").style.display= "none";
     document.getElementById("homebase_Link").style.display= "none";    
     document.getElementById("invite_Link").style.display= "none";  
+    document.getElementById("portfolio_Link").style.display= "none";     
+
    
 }
 
