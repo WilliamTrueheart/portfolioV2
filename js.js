@@ -40,6 +40,8 @@ function selectContact() {
 }
 
 function returnToTileBoard() {
+    const certContainer = document.getElementById('certContainer');
+
     document.getElementById("returnToTileBoard_BTN").style.display= "none";
     document.getElementById("tileBoardWrapper").style.display= "flex";
     document.getElementById("display_AboutMe").style.display= "none";
@@ -57,6 +59,8 @@ function returnToTileBoard() {
     document.getElementById("homebase_Link").style.display= "none";   
     document.getElementById("invite_Link").style.display= "none";   
     document.getElementById("portfolio_Link").style.display= "none";        
+    certContainer.style.backgroundImage = "none";
+    certContainer.innerText = 'click name to retrieve certificate' ;
 
 }
 
@@ -159,3 +163,24 @@ const fizzBuzz = () => {
     document.getElementById('showButton1').innerHTML = fizzBuzz.join(', ')
 }
 
+
+const selectCert = (num) => {
+    const certContainer = document.getElementById('certContainer');
+
+    if (num == 1) {
+        certContainer.innerText = '' ;
+        certContainer.style.backgroundImage = "url('htmlCert.png')";
+    }
+    if (num == 2) {
+        certContainer.innerText = '' ;
+        certContainer.style.backgroundImage = "url('jsCert.png')";
+    }
+    if (num == 3) {
+        certContainer.innerText = '' ;
+        certContainer.style.backgroundImage = "url('sqlCert.png')";
+    }
+    if (num == 4) {
+        certContainer.innerText = 'upon request' ;
+        certContainer.style.backgroundImage = "none";
+        }
+}

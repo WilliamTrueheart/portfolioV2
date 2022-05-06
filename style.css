@@ -158,6 +158,7 @@ a:hover {
     background: linear-gradient(140deg, rgba(33,33,33,1) 0%, rgba(61,61,61,1) 100%);
 }
 
+
 /* Below is the display for ABOUT ME */
 
 #display_AboutMe, #display_Skills, #display_Contact  {
@@ -217,30 +218,7 @@ a:hover {
     background-color: rgba(22, 21, 21, 0.308);
 }
 
-#certWrapper {
-    width: 70%; height:40%;
-    margin-top: 15vh;
-    align-self: center;
-    display:flex;
-    flex-direction: row;
-    gap:40px;
-    flex-wrap: wrap;
-    position: relative;
-    align-items: center; justify-content: center;
-}
 
-#educationInfo {
-    width: 90%;
-    color:white;
-    text-align: center;
-    font-size: .8rem;
-}
-
-#jsCert, #htmlCert {
-    width:40%;
-    animation-duration: 4s;
-    animation-name: easein;
-}
 
 /* Below are the Paragraphs for the 8 Tile UI's */
 
@@ -485,7 +463,43 @@ padding-bottom: 15px;
 #returnFromPortfolioItem:hover {
     background-color: #0a0433;
 }
+#certWrapper {
+    width:60%;
+    height:300px;
+    position: relative;
+    top:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+#certContainer {
+    width:90%;
+    height:85%;
+    position: relative;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.052);
+    color:white;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    font-size: .9rem;
+}
+
+
+#certSelectors {
+    width:80%;
+    position: relative;
+    color:white;
+    font-size: .8rem;
+    display: flex;
+    justify-content: space-around;
+    top:5%;
+    gap:10%;
+    cursor: pointer;
+}
 
 .grey {
     color:rgb(201, 201, 201);
@@ -861,9 +875,6 @@ hr {background-color: black;}
         top:15%;
     }
     
-    #jsCert, #htmlCert {
-        width:80%
-    }
 
     #certWrapper {
         margin-top:4vh;
