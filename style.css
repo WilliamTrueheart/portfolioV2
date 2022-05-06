@@ -475,6 +475,7 @@ padding-bottom: 15px;
     gap:4%;
     flex-direction: column;
     text-align: center;
+
 }
 
 .certItems {
@@ -773,6 +774,8 @@ hr {background-color: black;}
         animation-duration: 1.2s;
         animation-name: left;
     }
+    #certSelectors {
+        width:70%;}
 
 }
 
