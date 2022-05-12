@@ -316,14 +316,6 @@ padding: 20px 20px 20px 20px;
     animation-name: easein;
 }
 
-#portfolio_Items_Wrapper::before {
-    content:'* chronilogically arranged with my most current work at the top';
-    color:white;
-    
-    position: absolute;
-    bottom:-25px;
-    font-size: .6rem;
-    }
 
 .portfolio_Item {
     width:99%;
@@ -374,19 +366,6 @@ padding: 20px 20px 20px 20px;
     font-size: .7rem;
 }
 
-.showButton {
-    position: absolute;
-    display:none;
-    justify-content: center;
-    font-size: .6rem;
-    height:min-content; width:90%;
-    text-align: center;
-    background-color: #81b7ca50;
-    top:160px;
-    padding:10px;
-    cursor: pointer;
-    word-wrap: break-word;
-}
 
 #foxmithLink {
     position: absolute;
