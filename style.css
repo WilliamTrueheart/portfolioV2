@@ -426,6 +426,14 @@ padding: 20px 20px 20px 20px;
     font-size: .8rem;
 }
 
+#rwb_Link {
+    position: absolute;
+    top:120px;
+    color:black;
+    display:none;
+    font-size: .8rem;
+}
+
 
 
 #foxmithLink:hover, #lC_Link:hover {
