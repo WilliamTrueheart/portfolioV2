@@ -78,7 +78,7 @@ const portfolio_Selection = (num) => {
     document.getElementById("lC_Link").style.display= "none";
         break;
     case 2:
-    document.getElementById("portfolio_Display_Title1").innerHTML= "Below is the link to my <br> first front end project <br> on AWS Amplify";
+    document.getElementById("portfolio_Display_Title1").innerHTML= "Below is the link to my <br> latest front end project <br> on AWS Amplify";
     document.getElementById("portfolio_Desc1").style.display= "none";
     document.getElementById("portfolio_Desc1").style.top = "100px";
     document.getElementById("foxmithLink").style.display= "flex";
