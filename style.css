@@ -19,7 +19,7 @@ a:hover {
 /* Main Wrapper is displayed behind Tile Board */
 
 #mainWrapper {
-    background-image: linear-gradient(to top, black,rgb(27, 27, 27) 100%);
+    background-image: linear-gradient(to top, rgb(12, 18, 23),rgb(27, 27, 27) 100%);
     width:100vw; height:100vh;
     display:flex;
     align-items: center;
